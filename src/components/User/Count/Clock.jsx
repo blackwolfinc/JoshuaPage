@@ -36,10 +36,14 @@ class Clock extends Component {
   render() {
     return (
       <div className="Clock-Container">
+      <div className="Clock-wrap">
         <div className="CLC Clock-days">
-        <h1> {this.leading0(this.state.days)} Days </h1> 
+        <h1> {this.leading0(this.state.days)} Da<span className="text-green">y</span>s</h1> 
         </div>
-        <div className="CLC Clock-hours">
+      
+        </div>
+         <div className="Clock-wrap2">
+         <div className="CLC Clock-hours">
         <h1>  {this.leading0(this.state.hours)} Hours</h1>
         </div>
         <div className="CLC Clock-minutes">
@@ -47,6 +51,7 @@ class Clock extends Component {
         </div>
         <div className="CLC Clock-seconds">
         <h1>   {this.leading0(this.state.seconds)} Seconds</h1>
+        </div>
         </div>
       </div>
     );

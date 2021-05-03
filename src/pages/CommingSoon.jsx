@@ -23,13 +23,17 @@ export const CommingSoon = () => {
                     <img src={pat5}/>
                 </div>
                 <div className="CMSBodyKanan">
-                    <div className="CMSBodyKananAtas">
-
-                  </div>
+                    
                     <div className="CMSBodyKananTengah">
                     <Count/>
-                        {/* <Crausel/> */}
+                    
                     </div>
+
+                    <div className="CMSBodyKananAtas">
+                        <div className="CradCMS"><h5> BIG    <span className="text-green ">   BANDWIDTH</span></h5></div>
+                        <div className="CradCMS"> <h5>POWERFUL  <span className="text-green ">   SERVERS</span></h5></div>
+                        <div className="CradCMS"> <h5>ALWAYS ON  <span className="text-green ">   SUPPORT</span></h5></div>
+                  </div>
                    
                 </div>
     
