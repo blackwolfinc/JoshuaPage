@@ -1,0 +1,21 @@
+.Clock-Container {
+  display: flex;
+  width: 80%;
+  //   background-color: rebeccapurple;
+  justify-content: center;
+  padding: 2rem;
+
+  .CLC {
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 36px !important;
+  }
+}
+.Clock-Container2 {
+  width: 80%;
+  //   background-color: red;
+  display: flex;
+  margin-left: 12rem;
+  margin-top: 0%;
+}

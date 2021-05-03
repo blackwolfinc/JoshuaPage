@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./Page2.scss";
-
 import pat5 from "../../assets/images/logos/Patner/pat5.png"
 import { Crausel } from "../../components/User/Crausel/Crausel";
 import { Background2 } from "../../components/Background/Background2";
