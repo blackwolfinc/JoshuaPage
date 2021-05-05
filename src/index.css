@@ -86,7 +86,8 @@ body {
 
 
 html, body {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
+  overflow: hidden; /* Hide scrollbars */
   margin: 0; height: 100%; }
 
   .navbar-toggler {

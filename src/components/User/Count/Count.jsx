@@ -11,7 +11,7 @@ export const Count = () => {
       
     return (
         <div className="Clock-Container2">
-        <Clock deadline={"may, 17, 2021"} />
+        <Clock deadline={"may, 19, 2021"} />
       </div>
     )
 }
