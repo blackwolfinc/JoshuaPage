@@ -17,11 +17,11 @@ function App() {
       <BrowserRouter>
       <Switch>
       <Route path="/commingsoon">
-      <AllPage/>
+      <CommingSoon/>
       </Route>
       <Route path="/">
+      <AllPage/>
        
-        <CommingSoon/>
       </Route>
     </Switch>
     </BrowserRouter>
