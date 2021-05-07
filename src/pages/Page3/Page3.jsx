@@ -49,7 +49,7 @@ export const Page3 = () => {
           </div></a>
       </div>
       <div className="Page3ContainerFooter">
-          <button>explore server options
+          <button>explore server options 
 </button>
           <button>explore co-location options
 </button>

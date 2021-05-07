@@ -28,7 +28,7 @@ export const Endpage = () => {
      
     </div>
     <div className="EndPageFoot">
-      <h5>Copyright   <span className="text-green">   @ultratelecom.net</span></h5>
+      <h5>Copyright&copy;2021   <span className="text-green">   @ultratelecom.net</span></h5>
     </div>
     </>
  
