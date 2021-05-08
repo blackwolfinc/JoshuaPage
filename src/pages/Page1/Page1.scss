@@ -1,5 +1,4 @@
 .MainContainer {
-  max-height: 100vh;
   min-height: 50rem;
   background: linear-gradient(
     180deg,
@@ -24,7 +23,7 @@
 
   .BodyContainer {
     display: flex;
-    height: 80vh;
+
     margin-top: 2rem;
     .SecContainer {
       display: flex;
@@ -32,7 +31,6 @@
       // background-color: aquamarine;
       z-index: 1;
       width: 60%;
-      height: 80vh;
 
       .TitelContainer {
         display: flex;
@@ -133,7 +131,7 @@
     .TrdContainer {
       margin-top: 2rem;
       width: auto;
-      height: 90vh;
+
       background-color: transparent;
 
       .TitleKanan {
