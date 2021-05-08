@@ -1,5 +1,5 @@
 .gambarEquity {
-  width: 13rem;
+  width: 11rem;
   height: 100%;
   margin: 0rem 0rem 0rem 4rem;
 }
@@ -15,7 +15,10 @@
 .Button {
   padding: 0.4rem 2em;
   border-radius: 20px;
-  border: 2px solid rgb(35, 168, 35);
+  /* border: 2px solid rgb(35, 168, 35); */
+  border: none !important;
+
+box-shadow: 3px 3px 5px #a9c9a9, -2px -2px 5px #b7cab7;
   background-color: transparent !important;
   margin: 0rem 1rem;
   color: black;
@@ -23,11 +26,11 @@
 .Button2 {
   padding: 0.5rem 2em;
   border-radius: 20px;
-  border: none;
+  border: none !important;
   color: #fff;
   background-color: rgb(35, 168, 35);
   margin: 0rem 1rem;
-
+  box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
   font-family: 'Maax-Bold', 'Maax';
   font-weight: 700;
 }
