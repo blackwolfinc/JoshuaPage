@@ -1,3 +1,4 @@
+import { MDBContainer } from "mdbreact";
 import React from "react";
 import ImageCall from "../../assets/images/Face/CallCenter.png";
 import { Background } from "../../components/Background/Background";
@@ -5,8 +6,9 @@ import "./page4.scss";
 export const Endpage = () => {
   return (
     <>
+        <MDBContainer>
     <div className="EndPageWrapper">
-     
+
       <div className="EndPageHead">
   
     <p>Support Portal - <a href="https://support.ultratelecom.net/"> <span className="text-green">https://support.ultratelecom.net/</span></a> </p>
@@ -26,7 +28,7 @@ export const Endpage = () => {
 
 
      
-    </div>
+    </div> </MDBContainer>
     <div className="EndPageFoot">
       <h5>Copyright&copy;2021   <span className="text-green">   @ultratelecom.net</span></h5>
     </div>

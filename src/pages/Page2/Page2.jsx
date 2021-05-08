@@ -5,10 +5,13 @@ import "./Page2.scss";
 import pat5 from "../../assets/images/logos/Patner/pat5.png"
 import { Crausel } from "../../components/User/Crausel/Crausel";
 import { Background2 } from "../../components/Background/Background2";
+import { MDBContainer } from "mdbreact";
 export const Page2 = () => {
   return (
     <div className="Page2Container">
     <Background2/>
+
+    <MDBContainer>
       <div  data-aos="fade-up"
      data-aos-anchor-placement="bottom-center" 
      data-aos-duration="1000"
@@ -68,6 +71,7 @@ export const Page2 = () => {
             </div>
 
       </div>
+      </MDBContainer>
     </div>
   );
 };

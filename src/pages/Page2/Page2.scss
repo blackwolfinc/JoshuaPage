@@ -1,5 +1,5 @@
 .Page2Container {
-  width: 100vw;
+  width: 100%;
   min-height: 50rem;
   background: linear-gradient(
     0deg,
@@ -26,7 +26,7 @@
   }
 
   .Page2Body {
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -39,12 +39,12 @@
       //   background-color: rgba(35, 168, 35, 0.753);
       opacity: 1;
       img {
-        width: 30rem;
+        width: 20rem;
         margin-left: 7rem;
       }
     }
     .Page2BodyKanan {
-      width: 70%;
+      width: 100%;
       height: 100%;
       margin-top: 1.4rem;
       //   background-color: aqua;
@@ -53,16 +53,16 @@
         height: 33%;
         // background-color: cadetblue;
         text-align: left;
-        margin-left: 14rem;
+        margin-left: 10rem;
         h1 {
-          font-size: 28px;
+          font-size: 24px;
           font-family: "Maax";
         }
       }
       .page2BodyKananTengah {
         width: auto;
         height: 33%;
-        margin-top: -3.5rem;
+        margin-top: -4.5rem;
         // box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
         // background-color: violet;
         h1 {
@@ -70,7 +70,7 @@
           line-height: 2rem;
         }
         .bigHudred {
-          font-size: 60px;
+          font-size: 50px;
           font-weight: 800;
         }
 
@@ -90,12 +90,14 @@
           justify-content: center;
           text-align: center;
           //   background-color: rebeccapurple;
-          margin-left: 13rem;
+          margin-left: 7rem;
           margin-right: 1rem;
+          width: 100%;
+
           h1 {
             font-size: 20px;
           }
-          width: 30%;
+          width: 100%;
         }
         .page2BodyKananTengah3 {
           display: flex;
@@ -109,7 +111,7 @@
           h1 {
             font-size: 20px;
           }
-          width: 30%;
+          width: 100%;
         }
         .page2BodyKananTengah5 {
           display: flex;
@@ -118,12 +120,12 @@
           //   box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
           border-radius: 10px;
           padding: 0.5rem 0rem;
-          margin-right: 10rem;
+          margin-right: 2rem;
           margin-left: 1rem;
           h1 {
             font-size: 20px;
           }
-          width: 30%;
+          width: 100%;
         }
       }
       .page2BodyKananBawah {

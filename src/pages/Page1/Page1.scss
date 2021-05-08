@@ -42,7 +42,7 @@
         margin-top: 2rem;
 
         h1 {
-          font-size: 60px;
+          font-size: 45px;
           margin-top: 1rem;
           font-weight: 800;
           z-index: 2;
@@ -90,7 +90,7 @@
         display: flex;
         justify-content: start;
         text-align: center;
-
+        margin-right: auto;
         transform: scale(0.8);
 
         img {
@@ -159,7 +159,7 @@
 
         .CardKanan {
           box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
-          width: 90%;
+          width: 110%;
           // transform: rotateZ(342deg);
           opacity: 0.8;
           display: flex;
@@ -167,7 +167,7 @@
           padding: 0.8rem 1.3rem 0rem;
           margin-bottom: 0.5rem;
           margin-top: 1rem;
-          margin-left: 0.4rem;
+          margin-left: -1.4rem;
           text-align: left;
           border-radius: 20px;
           transform: scale(0.9);
@@ -177,7 +177,7 @@
             height: -webkit-fill-available;
             width: 3rem;
             height: auto;
-            font-size: 56px;
+            font-size: 36px;
             margin-right: 2.5rem;
             color: rgba(35, 168, 35, 0.753);
             padding-bottom: 1.5rem;
@@ -185,6 +185,7 @@
           .CardKanan-body {
             h1 {
               flex-direction: row;
+              font-size: 20px;
             }
             svg {
               width: 1rem;
@@ -199,7 +200,7 @@
             font-weight: 800;
           }
           p {
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 700;
             color: rgb(10, 10, 10);
             font-family: "Maax";
@@ -207,7 +208,7 @@
         }
         .CardKanan:hover {
           transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
-          transform: scale(1.06);
+          transform: scale(1.04);
 
           .CardKanan-body {
             svg {

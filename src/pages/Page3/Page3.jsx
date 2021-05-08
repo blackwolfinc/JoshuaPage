@@ -1,10 +1,11 @@
 import React from "react";
 import "./Page3.scss";
 import Maps1 from "../../assets/images/Maps/Maps1.png";
+import { MDBContainer } from "mdbreact";
 export const Page3 = () => {
   return (
     <div className="Page3Container">
-    
+    <MDBContainer>
       <div className="Page3ContainerHeader">
         <h1>
           {" "}
@@ -54,6 +55,7 @@ export const Page3 = () => {
           <button>explore co-location options
 </button>
       </div>
+      </MDBContainer>
     </div>
   );
 };

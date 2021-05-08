@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
+MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBContainer
 } from "mdbreact";
 import LogoEquity from "../../../../../assets/images/logos/icon.png"
 import Style from "./NavbarV1.module.css"
@@ -23,7 +23,8 @@ render() {
   return (
 
       <MDBNavbar className={Style.NavbarCon} white expand="md">
-        <MDBNavbarBrand>
+          <MDBContainer>
+                  <MDBNavbarBrand>
          <img className={Style.gambarEquity} src={LogoEquity} alt=""/>
         </MDBNavbarBrand>
         <MDBNavbarToggler  onClick={this.toggleCollapse}> <FontAwesomeIcon icon={faBars} /></MDBNavbarToggler>
@@ -44,6 +45,7 @@ render() {
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
+        </MDBContainer>
       </MDBNavbar>
 
     );
