@@ -2,6 +2,8 @@ import React from "react";
 import "./Page3.scss";
 import Maps1 from "../../assets/images/Maps/Maps1.png";
 import { MDBContainer } from "mdbreact";
+import Typewriter from "typewriter-effect";
+
 export const Page3 = () => {
   return (
     <div className="Page3Container">
@@ -15,8 +17,14 @@ export const Page3 = () => {
         </h1>
         <br />
         <h2>
-          we connect your business to major markets, meshed together by our
-          global MPLS
+        <Typewriter
+                    options={{
+                      strings: [" we connect your business to major markets, meshed together by our global MPLS"],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+         
         </h2>
       </div>
       <div className="Page3ContainerBody">

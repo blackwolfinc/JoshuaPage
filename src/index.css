@@ -123,7 +123,9 @@ html, body {
 }
 .carousel  img{
   width:auto;
-  height: 5.5rem;
+  height: 4.5rem;
+  padding-top: 1rem;
+  border: none !important;
 }
 .z-depth-1{
   box-shadow: none !important;

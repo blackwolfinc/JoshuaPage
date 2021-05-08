@@ -25,12 +25,13 @@
   .BodyContainer {
     display: flex;
     height: 80vh;
+    margin-top: 2rem;
     .SecContainer {
       display: flex;
       flex-direction: column;
       // background-color: aquamarine;
       z-index: 1;
-      width: 60vw;
+      width: 60%;
       height: 80vh;
 
       .TitelContainer {
@@ -91,7 +92,7 @@
         justify-content: start;
         text-align: center;
         margin-right: auto;
-        transform: scale(0.8);
+        transform: scale(0.4);
 
         img {
           margin-bottom: 3rem;
@@ -131,7 +132,7 @@
 
     .TrdContainer {
       margin-top: 2rem;
-      width: 40%;
+      width: auto;
       height: 90vh;
       background-color: transparent;
 
@@ -153,13 +154,13 @@
         display: flex;
         // border-top: 2px solid #3a3a3a9d;
         flex-direction: column;
-        margin-left: 0rem;
+        margin-left: 3rem;
         text-align: left;
         width: 100%;
 
         .CardKanan {
           box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
-          width: 110%;
+          width: 100%;
           // transform: rotateZ(342deg);
           opacity: 0.8;
           display: flex;
