@@ -6,24 +6,42 @@
     rgba(255, 255, 255, 0.9) 94%
   );
 
-  .Speedtest {
-    height: 10rem;
-    margin-left: 15rem;
-    margin-top: 15rem;
-    transform: scale(2.3);
-    .Typewriter {
-      color: #3a3a3a6c !important;
-    }
-    :nth-child(2) {
-      // background-color: red;
-      margin-top: -7rem;
-      // border-bottom: 4px gray solid;
+  // .Speedtest {
+  //   height: 10rem;
+  //   margin-left: 15rem;
+  //   margin-top: 15rem;
+  //   transform: scale(2.3);
+  //   z-index: 99999;
+  //   .Typewriter {
+  //     color: #3a3a3a6c !important;
+  //   }
+  //   :nth-child(2) {
+  //     // background-color: red;
+  //     margin-top: -7rem;
+  //     // border-bottom: 4px gray solid;
+  //   }
+  // }
+
+  .ImageSpeed {
+    position: absolute;
+    left: 0px;
+    z-index: -9999;
+    img {
+      margin-bottom: 0rem !important;
+      margin-top: 16rem !important;
+      margin-left: -6rem !important;
+      width: 105rem !important;
+      opacity: 1 !important;
+      filter: none !important;
+      border-radius: 20px;
+      border: none !important;
+      z-index: 1;
     }
   }
 
   .BodyContainer {
     display: flex;
-
+    flex-direction: row;
     margin-top: 2rem;
     .SecContainer {
       display: flex;
@@ -31,26 +49,6 @@
       // background-color: aquamarine;
       z-index: 1;
       width: 60%;
-
-      .TitelContainer {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        text-align: left;
-        margin-left: 5rem;
-        margin-top: 2rem;
-
-        h1 {
-          font-size: 45px;
-          margin-top: 1rem;
-          font-weight: 800;
-          z-index: 2;
-          color: #3a3a3a;
-          opacity: 0.7;
-          line-height: 4rem;
-          font-family: "Maax-Black", "Maax";
-        }
-      }
 
       .SectionServe {
         margin-top: 12.5rem;
@@ -147,7 +145,7 @@
       }
 
       .ContainerButton {
-        margin-top: 2rem;
+        margin-top: 0rem;
         background-color: transparent !important;
         display: flex;
         // border-top: 2px solid #3a3a3a9d;
@@ -155,6 +153,25 @@
         margin-left: 3rem;
         text-align: left;
         width: 100%;
+
+        .TitelContainer {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          text-align: left;
+          background-color: #fff;
+          z-index: 99999;
+
+          h1 {
+            font-size: 45px;
+            font-weight: 800;
+            z-index: 2;
+            color: #3a3a3a;
+            opacity: 0.7;
+            line-height: 4rem;
+            font-family: "Maax-Black", "Maax";
+          }
+        }
 
         .CardKanan {
           box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
