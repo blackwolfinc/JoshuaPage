@@ -23,10 +23,10 @@ import "./Responsive510.scss";
 
 // import Img
 import iconCard1 from "../../assets/images/logos/speedIcon.png";
-import Handpone from "../../assets/images/logos/Globe.png";
 import { Speed } from "../../components/User/Speed/Speed";
 import { Crausel } from "../../components/User/Crausel/Crausel";
 import { MDBContainer } from "mdbreact";
+import { GlobeGL } from "../../components/User/Globe/GlobeGL";
 
 export const Page1 = () => {
   return (
@@ -36,7 +36,12 @@ export const Page1 = () => {
       <MDBContainer>
         <div className="BodyContainer">
           <div className="SecContainer">
-         
+          <div className="TitelContainer">
+              <h1>
+                we sell <span className="text-green "> high bandwidth</span>{" "}
+                <br /> unmetered servers
+              </h1>
+            </div>
 
             <div
               data-aos="fade-up"
@@ -45,11 +50,10 @@ export const Page1 = () => {
             >
             
                 <div className="ImageSpeed">
-                 <img src={Handpone}></img>
+                 {/* <img src={Handpone}></img> */}
+          
+                  <div className="SpeedWraper">        <GlobeGL/></div>
               </div>
-              
-
-
               <div className="SectionServe">
                 <ul>
                   <li>
@@ -84,23 +88,15 @@ export const Page1 = () => {
           <div className="TrdContainer">
          
             <div className="ContainerButton">
-            <div className="TitelContainer">
+           
               <h1>
-                we sell <span className="text-green "> high bandwidth</span>{" "}
-                <br /> 
-                <span>
-                  <Typewriter
+              <Typewriter
                     options={{
-                      strings: [ "unmetered servers","How can we help ?" , ],
+                      strings: [ "How can we help ?" , ],
                       autoStart: true,
                       loop: true,
                     }}
                   />{" "}
-                </span>
-              </h1>
-            </div>
-              <h1>
-
                 
               </h1>
 

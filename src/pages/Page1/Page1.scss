@@ -23,12 +23,13 @@
   // }
 
   .ImageSpeed {
+    display: flex;
     position: absolute;
     left: 0px;
     z-index: -9999;
     img {
       margin-bottom: 0rem !important;
-      margin-top: 16rem !important;
+      margin-top: 10rem !important;
       margin-left: -6rem !important;
       width: 105rem !important;
       opacity: 1 !important;
@@ -36,6 +37,29 @@
       border-radius: 20px;
       border: none !important;
       z-index: 1;
+    }
+    .SpeedWraper {
+      position: absolute;
+      top: 15rem;
+      margin-left: 0.5rem;
+      z-index: 9999;
+      transform: scale(2);
+      color: rgba(255, 255, 255, 0) !important;
+
+      #globeViz {
+        opacity: 0.85;
+
+        filter: grayscale(0.2) drop-shadow(0.5rem 0.5rem 1rem #455043)
+          blur(0.2px);
+      }
+    }
+  }
+  @keyframes GolobeRotate {
+    0%,
+    100% {
+    }
+
+    50% {
     }
   }
 
@@ -50,6 +74,25 @@
       z-index: 1;
       width: 60%;
 
+      .TitelContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
+        // background-color: #fff;
+        z-index: 99999;
+        background: transparent;
+
+        h1 {
+          font-size: 45px;
+          font-weight: 800;
+          z-index: 2;
+          color: #3a3a3a;
+          opacity: 0.7;
+          line-height: 4rem;
+          font-family: "Maax-Black", "Maax";
+        }
+      }
       .SectionServe {
         margin-top: 12.5rem;
         margin-left: 5rem;
@@ -153,25 +196,6 @@
         margin-left: 3rem;
         text-align: left;
         width: 100%;
-
-        .TitelContainer {
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-start;
-          text-align: left;
-          background-color: #fff;
-          z-index: 99999;
-
-          h1 {
-            font-size: 45px;
-            font-weight: 800;
-            z-index: 2;
-            color: #3a3a3a;
-            opacity: 0.7;
-            line-height: 4rem;
-            font-family: "Maax-Black", "Maax";
-          }
-        }
 
         .CardKanan {
           box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
