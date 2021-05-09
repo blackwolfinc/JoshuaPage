@@ -104,7 +104,7 @@ export const Page1 = () => {
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-center"
                 data-aos-duration="1000"
-                className="CardKanan"
+                className=" CardK1 CardKanan"
               >
                 <div className="CardKanan-img">
                   <FontAwesomeIcon icon={faGlobeEurope} />
@@ -123,7 +123,7 @@ export const Page1 = () => {
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-center"
                 data-aos-duration="1000"
-                className="CardKanan"
+                className="CardKanan CardK2"
               >
                 <div className="CardKanan-img">
                   <FontAwesomeIcon icon={faServer} />
@@ -140,7 +140,7 @@ export const Page1 = () => {
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
-                className="CardKanan"
+                className="CardKanan CardK3"
               >
                 <div className="CardKanan-img">
                   <FontAwesomeIcon icon={faMapMarkedAlt} />
@@ -158,7 +158,7 @@ export const Page1 = () => {
                 data-aos="fade-up"
                 data-aos-anchor-placement="bottom-right"
                 data-aos-duration="1000"
-                className="CardKanan"
+                className="CardKanan CardK4"
               >
                 <div className="CardKanan-img">
                   <FontAwesomeIcon icon={faDatabase} />

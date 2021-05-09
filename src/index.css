@@ -139,3 +139,7 @@ color: rgba(35, 168, 35, 0.753)  !important;
 .text-red {
   color: rgb(233, 39, 39)  !important;
 }
+
+.Typewriter__wrapper{
+  color: #3a3a3a5b;
+}
