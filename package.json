@@ -2,8 +2,7 @@
   "name": "react-state-management",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://blackwolfinc.github.io/my-app",
-
+  "homepage": ".",
   "scripts": {
     "dev": "react-scripts start",
     "start": "serve -s build",
