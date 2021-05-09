@@ -46,8 +46,8 @@ export const GlobeGL = () => {
         <div id="globeViz">
         <Globe
         ref={globeEl}
-        height="1200"
-        width="1400"
+        height="950"
+        width="1150"
         backgroundColor="#66000000"
         showGlobe={true}
         showAtmosphere={true}
