@@ -2,6 +2,7 @@
   "name": "react-state-management",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://blackwolfinc.github.io/my-app",
 
   "scripts": {
     "dev": "react-scripts start",
@@ -10,9 +11,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
-    }
-    ,
-    
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
