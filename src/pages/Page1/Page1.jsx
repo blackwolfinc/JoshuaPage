@@ -27,11 +27,12 @@ import { Speed } from "../../components/User/Speed/Speed";
 import { Crausel } from "../../components/User/Crausel/Crausel";
 import { MDBContainer } from "mdbreact";
 import { GlobeGL } from "../../components/User/Globe/GlobeGL";
+import { Vidio } from "../../components/User/Vidio/Vidio";
 
 export const Page1 = () => {
   return (
     <div className="MainContainer">
-      <Background />
+      {/* <Background /> */}
       <NavbarV1 />
       <MDBContainer>
         <div className="BodyContainer">
@@ -52,7 +53,12 @@ export const Page1 = () => {
                 <div className="ImageSpeed">
                  {/* <img src={Handpone}></img> */}
           
-                  <div className="SpeedWraper">        <GlobeGL/></div>
+                  <div className="SpeedWraper">       
+
+                   {/* <GlobeGL/>  */}
+                   <Vidio/>
+                   
+                   </div>
               </div>
               <div className="SectionServe">
                 <ul>

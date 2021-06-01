@@ -6,6 +6,7 @@ import pat5 from "../../assets/images/logos/Patner/pat5.png"
 import { Crausel } from "../../components/User/Crausel/Crausel";
 import { Background2 } from "../../components/Background/Background2";
 import { MDBContainer } from "mdbreact";
+import { Vidio2 } from "../../components/User/Vidio copy/Vidio2";
 export const Page2 = () => {
   return (
     <div className="Page2Container">
@@ -25,7 +26,8 @@ export const Page2 = () => {
       </div>
       <div className="Page2Body">
             <div className="Page2BodyKiri">
-                <img src={pat5}/>
+              <Vidio2/>
+
             </div>
             <div className="Page2BodyKanan">
                 <div className="page2BodyKananAtas">

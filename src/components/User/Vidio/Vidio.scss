@@ -1,0 +1,34 @@
+.VidContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-left: 3rem;
+  margin-top: 9rem;
+  .video {
+    position: absolute;
+    width: auto;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+  }
+  video {
+    opacity: 0.88 !important;
+    transform: scale(0.75);
+  }
+}
+
+.VidVideo-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: opacity 400ms ease 0ms;
+}
+.tiny {
+  filter: blur(20px);
+  transform: scale(1.1);
+  transition: visibility 0ms ease 400ms;
+}
