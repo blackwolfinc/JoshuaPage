@@ -22,18 +22,14 @@ import "./Responsive650.scss";
 import "./Responsive510.scss";
 
 // import Img
-import iconCard1 from "../../assets/images/logos/speedIcon.png";
-import { Speed } from "../../components/User/Speed/Speed";
-import { Crausel } from "../../components/User/Crausel/Crausel";
 import { MDBContainer } from "mdbreact";
-import { GlobeGL } from "../../components/User/Globe/GlobeGL";
 import { Vidio } from "../../components/User/Vidio/Vidio";
 
 export const Page1 = () => {
   return (
     <div className="MainContainer">
       {/* <Background /> */}
-      <NavbarV1 />
+    <NavbarV1 />
       <MDBContainer>
         <div className="BodyContainer">
           <div className="SecContainer">
@@ -43,21 +39,16 @@ export const Page1 = () => {
                 <br /> unmetered servers
               </h1>
             </div>
-
             <div
               data-aos="fade-up"
               data-aos-duration="3000"
               className="SectionCard"
             >
-            
-                <div className="ImageSpeed">
+              <div className="ImageSpeed">
                  {/* <img src={Handpone}></img> */}
-          
                   <div className="SpeedWraper">       
-
                    {/* <GlobeGL/>  */}
-                   <Vidio/>
-                   
+                     <Vidio/>
                    </div>
               </div>
               <div className="SectionServe">
@@ -92,9 +83,7 @@ export const Page1 = () => {
             </div>
           </div>
           <div className="TrdContainer">
-         
             <div className="ContainerButton">
-           
               <h1>
               <Typewriter
                     options={{
@@ -103,9 +92,7 @@ export const Page1 = () => {
                       loop: true,
                     }}
                   />{" "}
-                
               </h1>
-
               <div
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-center"
