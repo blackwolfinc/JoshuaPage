@@ -89,7 +89,7 @@
           font-weight: 800;
           z-index: 2;
           color: #3a3a3a;
-          opacity: 0.7;
+          // opacity: 0.7;
           line-height: 4rem;
           font-family: "Maax-Black", "Maax";
           -webkit-text-stroke: 2px #fff;
@@ -245,7 +245,7 @@
             h1 {
               flex-direction: row;
               font-size: 20px;
-              -webkit-text-stroke: 1px rgba(35, 168, 35, 0.353); /* width and color */
+              -webkit-text-stroke: 1px rgba(12, 14, 12, 0.353); /* width and color */
             }
             svg {
               width: 1rem;
@@ -284,7 +284,7 @@
               opacity: 1;
             }
             p {
-              opacity: 0.6;
+              opacity: 0.9;
             }
           }
 

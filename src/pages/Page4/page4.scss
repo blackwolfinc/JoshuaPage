@@ -1,20 +1,29 @@
 .EndPageWrapper {
   display: flex;
   width: 100%;
-  margin-top: -5rem;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
   min-height: 30rem;
   max-height: 60vh;
   justify-content: space-around;
-  flex-direction: row;
+  flex-direction: row-reverse;
   z-index: 6;
   //   border-top: 2rem solid #3a3a3a3d;
   background-color: #fff;
+
+  border: 2px solid rgba(128, 128, 128, 0.301);
+  border-radius: 20px;
+  // box-shadow: 10px 10px 40px #d9d9d9, -10px -10px 40px #ffffff;
 
   .EndPageHead {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
+
+    h1 {
+      margin-bottom: 2rem;
+    }
     p {
       line-height: 2rem;
       opacity: 0.8;
@@ -33,18 +42,25 @@
       padding: 0.3rem 3rem;
       line-height: 2.5rem;
       color: #3a3a3a;
-      box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+      box-shadow: 10px 10px 40px #d9d9d9, -10px -10px 40px #ffffff;
       border-radius: 20px;
       border: 1px solid rgba(35, 168, 35, 0.103) !important;
       background: linear-gradient(
         8deg,
-        rgba(77, 226, 77, 0.089) 11%,
-        rgba(255, 255, 255, 0.788953081232493) 26%
+        rgba(67, 224, 146, 0.089) 11%,
+        rgba(255, 255, 255, 0.788953) 26%
       );
+
+      opacity: 0.8;
+      a {
+        color: #3a3a3a;
+      }
     }
     :hover {
-      transform: scale(1.1);
-      transition: 4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transform: scale(1.05);
+      transition: 2s cubic-bezier(0.165, 0.84, 0.44, 1) inherit;
+      box-shadow: 5px 5px 20px #d9d9d9, -5px -5px 20px #ffffff;
+      border: none;
     }
   }
 }
@@ -54,10 +70,11 @@
   text-align: center;
   align-content: center;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-  height: 5rem;
+  height: 3rem;
   width: 100vw;
 
-  h5 {
+  p {
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     text-align: center;
