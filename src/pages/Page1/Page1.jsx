@@ -83,7 +83,9 @@ export const Page1 = () => {
             </div>
           </div>
           <div className="TrdContainer">
+          <Background/>
             <div className="ContainerButton">
+          
               <h1>
               <Typewriter
                     options={{
