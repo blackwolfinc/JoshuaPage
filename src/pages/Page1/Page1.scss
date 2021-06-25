@@ -43,7 +43,7 @@
       top: 15rem;
       margin-left: 5.5rem;
       z-index: 9999;
-      transform: scale(2);
+   
       color: rgba(255, 255, 255, 0) !important;
 
       #globeViz {
@@ -187,15 +187,23 @@
       padding-left: 2rem;
       .btn-Our{
         padding: 1rem 4rem;
+    
         border-radius: 12px;
         background-color: white;
         // border: 2px solid #3a3a3a;
         border: none;
-        margin-left: 1rem;
+        margin-left: 2rem;
         color: rgba(35, 168, 35, 0.753);
+        border: 1px solid rgba(35, 168, 35, 0.753);
         margin-top: 2rem;
         box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+
+    
       }
+      .btn-Our:hover {    background-color: rgba(35, 168, 35, 0.753);
+        transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+        transform: scale(1.1);
+        color: #fff;}
       .TitelContainer {
         margin-top: 2.5rem;
         font-size: 45px;

@@ -38,7 +38,7 @@
             }
             .cardTengah {
                 
-                margin: 2rem 0rem ;
+                margin: 1rem 0rem  2rem 0rem;
                 :first-child{
                     height: 5rem;
                     font-size: 60px;
@@ -49,12 +49,14 @@
         }
 
         .cardPage12:hover{
-            transform: scale(1.2);
-            border: 2px solid rgba(35, 168, 35, 0.753);
+            background-color: transparent;
+            box-shadow: 20px 20px 60px #d9d9d98e, -20px -20px 60px #ffffff;
+            transform: scale(1.1);
+            // border: 2px solid rgba(35, 168, 35, 0.753);
             transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
-            margin: 6rem 4rem;
             .cardAtas{
-            box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+                // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+                transform: scale(1.02);
             border-radius: 12px;
             color: whitesmoke;
          }
@@ -62,6 +64,9 @@
             transition: 700ms cubic-bezier(0.075, 0.82, 0.165, 1);
          
         }  
+
         }
+        
+       
     }
 }

@@ -46,34 +46,7 @@ export const Page1 = () => {
                      <Vidio/>
                    </div>
               </div>
-              <div className="SectionServe">
-                <ul>
-                  <li>
-                    <span>
-                      <FontAwesomeIcon icon={faTachometerAlt} />
-                    </span>{" "}
-                    always unmetered, go all out!
-                  </li>
-                  <li>
-                    <span>
-                      <FontAwesomeIcon icon={faMap} />
-                    </span>{" "}
-                    globally peered for performance
-                  </li>
-                  <li>
-                    <span>
-                      <FontAwesomeIcon icon={faNetworkWired} />
-                    </span>{" "}
-                    global multi-site lan network
-                  </li>
-                  <li>
-                    <span>
-                      <FontAwesomeIcon icon={faUsersCog} />
-                    </span>{" "}
-                    dedicated human support
-                  </li>
-                </ul>
-              </div>
+              
               {/* <img src={iconCard1} /> */}
             </div>
           </div>
