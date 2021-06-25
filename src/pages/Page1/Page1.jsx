@@ -10,6 +10,7 @@ import {
   faMapMarkedAlt,
   faDatabase,
   faArrowRight,
+ faUserCog
 } from "@fortawesome/free-solid-svg-icons";
 import Typewriter from "typewriter-effect";
 // import Page
@@ -46,7 +47,6 @@ export const Page1 = () => {
                      <Vidio/>
                    </div>
               </div>
-              
               {/* <img src={iconCard1} /> */}
             </div>
           </div>
@@ -57,7 +57,7 @@ export const Page1 = () => {
                 <br /> unmetered servers
               </h1>
             </div>
-            <button className="btn-Our">Our Service</button>
+            <button className="btn-Our"> <span className="icon-btn text-green"> <FontAwesomeIcon icon={faUserCog} /></span><h3>Our Service</h3></button>
           </div>
         </div>
       </MDBContainer>
