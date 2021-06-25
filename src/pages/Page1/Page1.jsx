@@ -33,12 +33,7 @@ export const Page1 = () => {
       <MDBContainer>
         <div className="BodyContainer">
           <div className="SecContainer">
-          <div className="TitelContainer">
-              <h1>
-                we sell <span className="text-green "> high bandwidth</span>{" "}
-                <br /> unmetered servers
-              </h1>
-            </div>
+       
             <div
               data-aos="fade-up"
               data-aos-duration="3000"
@@ -83,90 +78,13 @@ export const Page1 = () => {
             </div>
           </div>
           <div className="TrdContainer">
-          <Background/>
-            <div className="ContainerButton">
-          
+          <div className="TitelContainer">
               <h1>
-              <Typewriter
-                    options={{
-                      strings: [ "How can we help ?" , ],
-                      autoStart: true,
-                      loop: true,
-                    }}
-                  />{" "}
+                we sell <span className="text-green "> high bandwidth</span>{" "}
+                <br /> unmetered servers
               </h1>
-              <div
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-center"
-                data-aos-duration="1000"
-                className=" CardK1 CardKanan"
-              >
-                <div className="CardKanan-img">
-                  <FontAwesomeIcon icon={faGlobeEurope} />
-                </div>
-                <div className="CardKanan-body">
-                  {" "}
-                  <h1>
-                    {" "}
-                    LEASE<span className="text-green "> IPV4</span>
-                    <FontAwesomeIcon icon={faArrowRight} />
-                  </h1>
-                  <p>we support a wide range of usage cases</p>
-                </div>
-              </div>
-              <div
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-center"
-                data-aos-duration="1000"
-                className="CardKanan CardK2"
-              >
-                <div className="CardKanan-img">
-                  <FontAwesomeIcon icon={faServer} />
-                </div>
-                <div className="CardKanan-body">
-                  {" "}
-                  <h1>
-                    LEASE SERVERS <FontAwesomeIcon icon={faArrowRight} />
-                  </h1>
-                  <p>all our servers have unmetered bandwidth</p>
-                </div>
-              </div>
-              <div
-                data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom"
-                data-aos-duration="1000"
-                className="CardKanan CardK3"
-              >
-                <div className="CardKanan-img">
-                  <FontAwesomeIcon icon={faMapMarkedAlt} />
-                </div>
-                <div className="CardKanan-body">
-                  {" "}
-                  <h1>
-                    <span className="text-green "> CO</span>-LOCATION
-                    <FontAwesomeIcon icon={faArrowRight} />
-                  </h1>
-                  <p>host with us at any of our global locations</p>
-                </div>
-              </div>
-              <div
-                data-aos="fade-up"
-                data-aos-anchor-placement="bottom-right"
-                data-aos-duration="1000"
-                className="CardKanan CardK4"
-              >
-                <div className="CardKanan-img">
-                  <FontAwesomeIcon icon={faDatabase} />
-                </div>
-                <div className="CardKanan-body">
-                  {" "}
-                  <h1>
-                    DATA ANALYTICS <FontAwesomeIcon icon={faArrowRight} />
-                  </h1>
-                  <p>gather and make sense of raw data</p>
-                </div>
-              </div>
             </div>
+            <button className="btn-Our">Our Service</button>
           </div>
         </div>
       </MDBContainer>

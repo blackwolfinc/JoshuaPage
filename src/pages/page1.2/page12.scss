@@ -1,0 +1,67 @@
+.page12Container {
+    height: 30rem;
+    background-color: white;
+    // border: 1px solid red;
+    
+    .Typewriter__wrapper{font-size: 45px;
+        margin-bottom: -2rem;
+    }  
+   
+    .container{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+    
+        .cardPage12{
+            
+            width: 100%;
+            // background-color: brown;
+            // border: 1px solid gray ;
+            margin: 1rem;
+            border-radius: 12px;
+            height: 19rem;
+            padding: 2rem 1rem 1rem 1rem;
+            box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+            .svg-inline--fa.fa-w-14{
+                display: none;
+            }
+
+            
+            h4{
+               
+                font-size: 15px;
+                margin-bottom: 0rem;
+                color: #3a3a3a;
+                font-family: "Maax-Bold", "Maax";
+                font-weight: 700;
+                padding: 1rem;
+            }
+            .cardTengah {
+                
+                margin: 2rem 0rem ;
+                :first-child{
+                    height: 5rem;
+                    font-size: 60px;
+                    color: rgba(35, 168, 35, 0.753);
+                }
+            }
+
+        }
+
+        .cardPage12:hover{
+            transform: scale(1.2);
+            border: 2px solid rgba(35, 168, 35, 0.753);
+            transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+            margin: 6rem 4rem;
+            .cardAtas{
+            box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+            border-radius: 12px;
+            color: whitesmoke;
+         }
+          .cardTengah{transform: scale(1.1);
+            transition: 700ms cubic-bezier(0.075, 0.82, 0.165, 1);
+         
+        }  
+        }
+    }
+}
