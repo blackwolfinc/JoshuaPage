@@ -53,11 +53,10 @@ export const Page1 = () => {
           <div className="TrdContainer">
           <div className="TitelContainer">
               <h1>
-                we sell <span className="text-green "> high bandwidth</span>{" "}
-                <br /> unmetered servers
+              IMAGINE <span className="text-green "> CONNNECTIVITY </span>{" "}
+                <br /> THAT WORKS
               </h1>
             </div>
-            <button className="btn-Our"> <span className="icon-btn text-green"> <FontAwesomeIcon icon={faUserCog} /></span><h3>Our Service</h3></button>
           </div>
         </div>
       </MDBContainer>

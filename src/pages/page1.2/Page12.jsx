@@ -19,13 +19,13 @@ import { Background } from "../../components/Background/Background";
 export const Page12 = () => {
   return (
     <div className="page12Container">
-      <Typewriter
+      {/* <Typewriter
         options={{
           strings: ["How can we help ?"],
           autoStart: true,
           loop: true,
         }}
-      />{" "}
+      />{" "} */}
       <div className="container">
      
         <div className="cardPage12">
