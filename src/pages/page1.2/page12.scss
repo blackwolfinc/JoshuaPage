@@ -1,5 +1,5 @@
 .page12Container {
-    height: 20rem;
+    // height: 20rem;
     background-color: white;
     // border: 1px solid red;
     margin-top: -9.5rem;
@@ -10,7 +10,7 @@
     .container{
         display: flex;
         flex-direction: row;
-        margin-top: 2rem;
+        margin-top: 1rem;
     
         .cardPage12{
             
@@ -19,9 +19,10 @@
             // border: 1px solid gray ;
             margin: 1rem;
             border-radius: 12px;
-            height: 19rem;
+            height: 6.5rem;
             padding: 2rem 1rem 1rem 1rem;
             box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+            border-bottom: 3px solid rgba(35, 168, 35, 0.233);
             .svg-inline--fa.fa-w-14{
                 display: none;
             }
@@ -36,35 +37,65 @@
                 font-weight: 700;
                 padding: 1rem;
             }
+            .cardAtas{
+                // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+            //   display: none;
+         }
             .cardTengah {
-                
                 margin: 1rem 0rem  2rem 0rem;
+                display: none;
                 :first-child{
                     height: 5rem;
                     font-size: 60px;
                     color: rgba(35, 168, 35, 0.753);
                 }
             }
+            .cardBawah{
+                display: none;
+            
+            }
 
         }
 
         .cardPage12:hover{
+            height: 19rem;
             background-color: transparent;
+            border-top: 3px solid rgba(35, 168, 35, 0.753);
+            border-bottom: none ;
+            margin-bottom: 5rem;
             box-shadow: 20px 20px 60px #d9d9d98e, -20px -20px 60px #ffffff;
             transform: scale(1.1);
             // border: 2px solid rgba(35, 168, 35, 0.753);
-            transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
             .cardAtas{
-                // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+               
+               
                 transform: scale(1.02);
             border-radius: 12px;
             color: whitesmoke;
+            transition: 900ms cubic-bezier(0.075, 0.82, 0.165, 1);
+            margin-bottom: 0.7rem;
          }
-          .cardTengah{transform: scale(1.1);
-            transition: 700ms cubic-bezier(0.075, 0.82, 0.165, 1);
+          .cardTengah{
+              transform: scale(1.1);
+            margin: 3rem 0rem  2rem 0rem;
+            :first-child{
+                height: 5rem;
+                font-size: 60px;
+                color: rgba(35, 168, 35, 0.753);
+            }
+            transition: 900ms cubic-bezier(0.075, 0.82, 0.165, 1);
+            display: inline;
          
         }  
+        .cardBawah{
+            display: flex;
+            margin-top: 2rem;
+            transition: 900ms cubic-bezier(0.075, 0.82, 0.165, 1);
+            color:#3a3a3a;
+        }
 
+        
         }
         
        
