@@ -1,0 +1,453 @@
+.MainContainer {
+  min-height: 50rem;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.23433123249299714) 11%,
+    rgba(255, 255, 255, 0.9) 94%
+  );
+
+  // .Speedtest {
+  //   height: 10rem;
+  //   margin-left: 15rem;
+  //   margin-top: 15rem;
+  //   transform: scale(2.3);
+  //   z-index: 99999;
+  //   .Typewriter {
+  //     color: #3a3a3a6c !important;
+  //   }
+  //   :nth-child(2) {
+  //     // background-color: red;
+  //     margin-top: -7rem;
+  //     // border-bottom: 4px gray solid;
+  //   }
+  // }
+
+  .ImageSpeed {
+    display: flex;
+    position: absolute;
+    left: 0px;
+    z-index: -9999;
+    img {
+      margin-bottom: 0rem !important;
+      margin-top: 10rem !important;
+      margin-left: -6rem !important;
+      width: 5rem !important;
+      opacity: 1 !important;
+      filter: none !important;
+      border-radius: 20px;
+      border: none !important;
+      z-index: 1;
+    }
+    .SpeedWraper {
+      position: absolute;
+      top: 15rem;
+      margin-left: 5.5rem;
+      z-index: 9999;
+   
+      color: rgba(255, 255, 255, 0) !important;
+
+      #globeViz {
+        opacity: 0.85;
+
+        filter: grayscale(0.2) drop-shadow(0.5rem 0.5rem 1rem #455043)
+          blur(0.2px);
+      }
+    }
+  }
+  @keyframes GolobeRotate {
+    0%,
+    100% {
+    }
+
+    50% {
+    }
+  }
+
+  .BodyContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 6rem;
+    .SecContainer {
+      display: flex;
+      flex-direction: column;
+      // background-color: aquamarine;
+      z-index: 1;
+      width: 60%;
+
+      h1 {
+        margin-top: 1rem;
+        font-size: 15px !important;
+        font-weight: 800;
+        z-index: 2;
+        color: #3a3a3a;
+        // opacity: 0.7;
+        line-height: 4rem;
+        font-family: "Maax-Black", "Maax";
+        -webkit-text-stroke: 2px #fff;
+      }
+      .TitelContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
+        // background-color: #fff;
+        z-index: 99999;
+        background: transparent;
+     
+       
+      }
+      .SectionServe {
+        margin-top: 12.5rem;
+        margin-left: 5rem;
+        position: absolute;
+        z-index: -10;
+        opacity: 0;
+        background: linear-gradient(
+          136deg,
+          #3a3a3a 39%,
+          rgba(80, 80, 80, 0.864583) 86%
+        );
+        padding: 2rem;
+        transform: scale(1.8);
+        border-radius: 20px;
+
+        li {
+          list-style: none;
+          font-size: 28px;
+          text-align: left;
+          font-weight: 500;
+          line-height: 3rem;
+          color: #fff;
+          font-family: "Maax-Medium", "Maax";
+
+          span {
+            font-size: 25px;
+            margin-right: 2rem;
+          }
+        }
+      }
+
+      // Section card
+      .SectionCard {
+        margin-top: -6rem;
+        display: flex;
+        justify-content: start;
+        text-align: center;
+        margin-right: auto;
+        transform: scale(0.4);
+
+        img {
+          margin-bottom: 3rem;
+          margin-top: 4rem;
+          margin-left: 2rem;
+          width: 61rem;
+          opacity: 1;
+          border: 4px solid rgba(255, 255, 255, 0.89);
+          border-radius: 20px;
+          filter: blur(1px);
+        }
+        h1 {
+          bottom: -1rem;
+          right: -1rem;
+          position: absolute;
+          opacity: 1;
+          margin-top: 4rem;
+          background-color: #fff;
+          color: #3a3a3a;
+          padding: 2rem;
+
+          font-family: "Maax";
+          border-bottom: 4px solid #3a3a3a;
+          border-right: 4px solid #3a3a3a;
+          border-bottom-right-radius: 20px;
+          border-top-left-radius: 20px;
+        }
+
+        p {
+          color: rgb(10, 10, 10);
+          font-size: 18;
+          font-family: "Maax-Bold", "Maax";
+          font-weight: 700;
+        }
+      }
+    }
+
+    .TrdContainer {
+      margin-top: -9rem;
+      width: auto;
+      position: relative;
+      margin-right: -1rem;
+      padding-right: 2.5rem;
+      // border: 2px groove rgba(128, 128, 128, 0.301);
+      // box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.301),
+      //   -2px -2px 5px rgba(128, 128, 128, 0.301);
+      border-radius: 24px;
+      background-color: transparent;
+      text-align: left;
+      padding-left: 2rem;
+      .btn-Our{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: flex-end;
+        padding: 1.3rem 4rem;
+        border-radius: 12px;
+        color: #3a3a3a7a;
+        // border: 2px solid #3a3a3a;
+        justify-content: center;
+        margin-left: 2rem;
+        background-color: white;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 4px solid rgba(35, 168, 35, 0.404);
+
+        margin-top: 1rem;
+        box-shadow:  20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+        // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+.icon-btn{
+  font-size: 27px;
+  padding-right: 1rem;
+}
+h3{
+  font-size: 21px;
+}
+      }
+      .btn-Our:hover {    background-color: rgba(35, 168, 35, 0.753);
+        transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+        transform: scale(1.1);
+        color: #fff;
+        .icon-btn{
+          color: #ffffff !important;
+        }
+      }
+     
+      .TitelContainer {
+        margin-top: 9.5rem;
+        font-size: 40px;
+        margin-bottom: 0rem;
+        color: #3a3a3a;
+        font-family: "Maax-Bold", "Maax";
+        font-weight: 700;
+        padding: 1rem;
+      
+        
+        /* width and color */
+        h1{
+          font-size: 55px;
+          margin-top: 3rem;
+
+          margin-bottom: 0rem;
+          color: #3a3a3a;
+          font-family: "Maax-Bold", "Maax";
+          font-weight: 700;
+          padding: 1rem;
+        }
+
+      
+      }
+
+      .ContainerButton {
+        margin-top: 2.5rem;
+        background-color: transparent !important;
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+        text-align: left;
+        width: 100%;
+
+        // .CardK1 {
+        //   margin-left: 0rem !important;
+        // }
+        // .CardK2 {
+        //   margin-left: 0rem !important;
+        // }
+        // .CardK3 {
+        //   margin-left: 0rem !important;
+        // }
+        // .CardK4 {
+        //   margin-left: 0rem !important;
+        // }
+
+        :nth-child(5) {
+          border-bottom: none !important;
+        }
+        .CardKanan {
+          // box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
+          border-bottom: 0.2px solid rgba(65, 107, 68, 0.285);
+          width: 100%;
+
+          // transform: rotateZ(342deg);
+          opacity: 0.8;
+          display: flex;
+          flex-direction: row;
+          padding: 0.8rem 1.3rem 1rem;
+          margin-bottom: 0.5rem;
+          margin-top: 1rem;
+          margin-left: -1.4rem;
+          text-align: left;
+          // border-radius: 20px;
+          transform: scale(0.9);
+
+          .CardKanan-img {
+            align-items: center;
+            display: flex;
+            height: -webkit-fill-available;
+            width: 3rem;
+            height: auto;
+            font-size: 36px;
+            margin-right: 2.5rem;
+            color: rgba(35, 168, 35, 0.753);
+            padding-bottom: 1.5rem;
+          }
+          .CardKanan-body {
+            h1 {
+              flex-direction: row;
+              font-size: 20px;
+              -webkit-text-stroke: 1px rgba(12, 14, 12, 0.353); /* width and color */
+            }
+            svg {
+              width: 1rem;
+              margin-left: 1rem;
+              opacity: 0;
+            }
+          }
+          h1 {
+            font-size: 28px;
+            color: rgb(10, 10, 10);
+            font-family: "Maax-Black", "Maax";
+            font-weight: 800;
+          }
+          p {
+            font-size: 14px;
+            font-weight: 700;
+            color: rgb(10, 10, 10);
+            font-family: "Maax";
+          }
+        }
+        .CardKanan:hover {
+          transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+          transform: scale(1.04);
+
+          .CardKanan-body {
+            svg {
+              --arrowSpacing: 18px;
+              transition: 350ms cubic-bezier(0.215, 0.61, 0.355, 1);
+              --arrowHoverOffset: translateX(3px);
+              position: relative;
+              top: 1px;
+              margin-right: var(--arrowSpacing);
+              stroke-width: 2px;
+              fill: none;
+              stroke: currentColor;
+              opacity: 1;
+            }
+            p {
+              opacity: 0.9;
+            }
+          }
+
+          .CardKanan-img {
+            svg {
+              --arrowSpacing: 8px;
+              transition: 350ms cubic-bezier(0.215, 0.61, 0.355, 1);
+              --arrowHoverOffset: translateX(9px);
+              position: relative;
+              top: 1px;
+              margin-left: var(--arrowSpacing);
+              stroke-width: 2px;
+              fill: none;
+              stroke: currentColor;
+              opacity: 1;
+            }
+          }
+          // h1,
+          // .CardKanan-img,
+          // p {
+          //   color: white !important;
+          // }
+          // span {
+          //   color: #3a3a3a !important;
+          // }
+          // background-color: rgba(35, 168, 35, 0.753);
+        }
+      }
+    }
+  }
+}
+
+.MainContainer .BodyContainer .SecContainer .SectionCard p {
+  font-size: 12px;
+  margin: 0px !important;
+}
+
+@media all and (max-width: 1341px) {
+  .MainContainer .BodyContainer .TrdContainer .ContainerButton .CardKanan p {
+    margin-right: 1rem;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+@media all and (max-width: 1341px) {
+  .MainContainer .BodyContainer .TrdContainer .ContainerButton .CardKanan p {
+    margin-right: 0rem;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+@media all and (max-width: 1194px) {
+  .MainContainer .BodyContainer .TrdContainer .ContainerButton .CardKanan p {
+    margin-right: 0rem;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .MainContainer .BodyContainer .TrdContainer .TitleKanan {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+  .MainContainer .BodyContainer .SecContainer .SectionCard .CardKhusus {
+    width: 27%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: 2px solid rgba(37, 128, 37, 0.753);
+    padding: 2rem 0rem 0.5rem 0rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 60px;
+    margin: 1rem;
+  }
+}
+
+@media all and (max-width: 1075px) {
+  .MainContainer .BodyContainer .TrdContainer .ContainerButton .CardKanan p {
+    margin-right: 0rem;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .MainContainer .BodyContainer .TrdContainer .TitleKanan {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.pointer {
+  :first-child {
+    animation: animate2 13s ease-in-out infinite;
+  }
+}
+
+@keyframes animate2 {
+  0%,
+  100% {
+    transform: rotate(86deg);
+  }
+  50% {
+    transform: rotate(50deg);
+  }
+}
