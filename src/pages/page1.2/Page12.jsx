@@ -28,7 +28,7 @@ export const Page12 = () => {
       />{" "} */}
       <div className="container">
      
-        <div className="cardPage12">
+        <button className="cardPage12">
     
           <div className="cardAtas">
         
@@ -42,11 +42,11 @@ export const Page12 = () => {
             <FontAwesomeIcon icon={faGlobeEurope} />
           </div>
           <div className="cardBawah">
-            <p>all our servers have unmetered bandwidth</p>
+            <p>HASSLE - <span className="text-green "> "FREE IPV4"</span>  LEASING</p>
           </div>
-        </div>
+        </button>
 
-        <div className="cardPage12">
+        <button className="cardPage12">
           <div className="cardAtas">
             <h4>
               LEASE SERVERS
@@ -57,10 +57,10 @@ export const Page12 = () => {
             <FontAwesomeIcon icon={faServer} />
           </div>
           <div className="cardBawah">
-            <p>we support a wide range of usage cases</p>
+            <p><span className="text-green "> "POWERFUL"</span>  AND AFFORDABLE  BARE-METALS</p>
           </div>
-        </div>
-        <div className="cardPage12">
+        </button>
+        <button className="cardPage12">
           <div className="cardAtas">
             <h4>
               <span className="text-green "> CO</span>-LOCATION
@@ -71,10 +71,10 @@ export const Page12 = () => {
             <FontAwesomeIcon icon={faMapMarkedAlt} />
           </div>
           <div className="cardBawah">
-            <p>host with us at any of our global locations</p>
+            <p>CONNECTING YOU TO<span className="text-green "> "GLOBAL"</span>   MARKETS</p>
           </div>
-        </div>
-        <div className="cardPage12">
+        </button>
+        <button className="cardPage12">
           <div className="cardAtas">
             <h4>
               DATA ANALYTICS <FontAwesomeIcon icon={faArrowRight} />
@@ -84,9 +84,9 @@ export const Page12 = () => {
             <FontAwesomeIcon icon={faChartPie} />
           </div>
           <div className="cardBawah">
-            <p>gather and make sense of raw data</p>
+            <p>INNOVATED<span className="text-green "> DATA</span> COLLECTION <span className="text-green "> SOLUTIONS</span></p>
           </div>
-        </div>
+        </button>
       </div>
     </div>
   );

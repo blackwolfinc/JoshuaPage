@@ -1,5 +1,7 @@
 .page12Container {
     // height: 20rem;
+    transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
     background-color: white;
     // border: 1px solid red;
     margin-top: -9.5rem;
@@ -13,9 +15,12 @@
         margin-top: 1rem;
     
         .cardPage12{
-            
+            border-top: none;
+            border-right: none;
+            border-left: none;
             width: 100%;
-            // background-color: brown;
+            background-color: #ffffff;
+            outline: none;
             // border: 1px solid gray ;
             margin: 1rem;
             border-radius: 12px;

@@ -6,12 +6,13 @@
   min-height: 30rem;
   max-height: 60vh;
   justify-content: space-around;
-  flex-direction: row-reverse;
+  align-items: center;
+  flex-direction: row;
   z-index: 6;
   //   border-top: 2rem solid #3a3a3a3d;
   background-color: #fff;
 
-  border: 2px solid rgba(128, 128, 128, 0.301);
+  // border: 2px solid rgba(128, 128, 128, 0.301);
   border-radius: 20px;
   // box-shadow: 10px 10px 40px #d9d9d9, -10px -10px 40px #ffffff;
 
@@ -20,11 +21,21 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
-
+    // border: 1px solid gray ;
+    background-color: inherit;
+    padding: 1.8rem 5.5rem 1.5rem;
+    border-radius: 20px;
+    height: 70%; box-shadow: 10px 10px 40px #d9d9d97e, -10px -10px 40px #ffffff38;
+    justify-self: center;
     h1 {
-      margin-bottom: 2rem;
+      margin-bottom: 0.8rem;
+      color: #3a3a3a9a;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #3a3a3a54;
+      font-size: 32px;
     }
     p {
+      color:#3a3a3a9a;
       line-height: 2rem;
       opacity: 0.8;
       text-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
@@ -33,12 +44,13 @@
 
   .EndPageBody {
     display: flex;
-    margin-top: -2rem;
+    margin-top: -1.5rem;
+    margin-left: -8rem;
     justify-content: center;
     text-align: left;
     flex-direction: column;
     h5 {
-      margin-top: 1rem;
+      margin-top: 1.5rem;
       padding: 0.3rem 3rem;
       line-height: 2.5rem;
       color: #3a3a3a;

@@ -10,7 +10,7 @@ export const Endpage = () => {
     <div className="EndPageWrapper">
 
       <div className="EndPageHead">
-      <h1>Contacts</h1>
+      <h1>Get In Touch With Us.</h1>
   
     <p>Support Portal - <a href="https://support.ultratelecom.net/"> <span className="text-green">https://support.ultratelecom.net/</span></a> </p>
     <p>Phone Support - <span className="text-green">+1 (307) 200-8584 </span> </p>
