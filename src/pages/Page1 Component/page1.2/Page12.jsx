@@ -1,6 +1,7 @@
 import React from "react";
 import "./page12.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useHistory } from "react-router-dom";
 import {
   faTachometerAlt,
   faMap,
@@ -17,6 +18,7 @@ import Typewriter from "typewriter-effect";
 import { Background } from "../../../components/Background/Background";
 
 export const Page12 = () => {
+    let history = useHistory();
   return (
     <div className="page12Container">
       {/* <Typewriter
@@ -27,10 +29,10 @@ export const Page12 = () => {
         }}
       />{" "} */}
       <div className="container">
-     
-        <button className="cardPage12">
     
-          <div className="cardAtas">
+        <button  onClick={() => history.push("/freeIPV4")} className="cardPage12">
+    
+          <div  onClick={() => history.push("/freeIPV4")} className="cardAtas">
         
             <h4>
               {" "}
@@ -38,9 +40,9 @@ export const Page12 = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
-          <div className="cardTengah">
+          {/* <div className="cardTengah">
             <FontAwesomeIcon icon={faGlobeEurope} />
-          </div>
+          </div> */}
           <div className="cardBawah">
             <p>HASSLE - <span className="text-green "> "FREE IPV4"</span>  LEASING</p>
           </div>
@@ -53,9 +55,9 @@ export const Page12 = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
-          <div className="cardTengah">
+          {/* <div className="cardTengah">
             <FontAwesomeIcon icon={faServer} />
-          </div>
+          </div> */}
           <div className="cardBawah">
             <p><span className="text-green "> "POWERFUL"</span>  AND AFFORDABLE  BARE-METALS</p>
           </div>
@@ -67,9 +69,9 @@ export const Page12 = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
-          <div className="cardTengah">
+          {/* <div className="cardTengah">
             <FontAwesomeIcon icon={faMapMarkedAlt} />
-          </div>
+          </div> */}
           <div className="cardBawah">
             <p>CONNECTING YOU TO<span className="text-green "> "GLOBAL"</span>   MARKETS</p>
           </div>
@@ -80,9 +82,9 @@ export const Page12 = () => {
               DATA ANALYTICS <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
-          <div className="cardTengah">
+          {/* <div className="cardTengah">
             <FontAwesomeIcon icon={faChartPie} />
-          </div>
+          </div> */}
           <div className="cardBawah">
             <p>INNOVATED<span className="text-green "> DATA</span> COLLECTION <span className="text-green "> SOLUTIONS</span></p>
           </div>
