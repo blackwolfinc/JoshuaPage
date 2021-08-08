@@ -21,6 +21,7 @@
   background-color: transparent !important;
   margin: 0rem 1rem;
   color: black;
+  outline: none !important;
 }
 .Button2 {
   padding: 0.5rem 1em;
@@ -32,4 +33,5 @@
   box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
   font-family: 'Maax-Bold', 'Maax';
   font-weight: 700;
+  outline: none !important;
 }

@@ -5,6 +5,7 @@ import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import "./assets/Animation.scss";
 import { AllPage } from "./pages/AllPage";
 import { HasslePage } from "./pages/HasslePage";
+import { AboutUs } from "./pages/Page3 Component/AboutUs";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
+        <Route path="/AboutUs">
+            <AboutUs/>
+          </Route>
         <Route path="/freeIPV4">
             <HasslePage />
           </Route>
