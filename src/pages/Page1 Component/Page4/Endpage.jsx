@@ -21,7 +21,8 @@ export const Endpage = () => {
 
       </div>
 
-      <div className="EndPageBody">
+      <div  data-aos="fade-left"
+     data-aos-duration="1000" className="EndPageBody">
       <h5>   Privacy  Terms</h5>
       <h5>Why Big <span className="text-green">Bandwidth?  </span></h5>
       <h5>Partner With <span className="text-green">Us </span></h5>

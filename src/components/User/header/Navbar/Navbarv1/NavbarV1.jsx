@@ -33,7 +33,8 @@ render() {
 
   return (
 
-      <MDBNavbar className={Style.NavbarCon} white expand="md">
+      <MDBNavbar  data-aos="fade-down"
+      data-aos-duration="800" className={Style.NavbarCon} white expand="md">
           <MDBContainer>
                   <MDBNavbarBrand> <Link  to={"./"}><img className={Style.gambarEquity} src={LogoEquity} alt=""/></Link>
 

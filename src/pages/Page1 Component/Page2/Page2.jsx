@@ -35,15 +35,18 @@ export const Page2 = () => {
                     <br/> faster, without the hassle of bandwidth limitations. </h1>
               </div>
                 <div className="page2BodyKananTengah">
-                    <div className="page2BodyKananTengah1">
+                    <div data-aos="fade-up"
+     data-aos-duration="800" className="page2BodyKananTengah1">
                         <h1><span className="bigHudred"><i>100</i></span><span className="text-red"> %</span> <br/> <span style={{fontSize: "12px" , marginTop:"-2rem"}}><b><span style={{fontSize: "18px" ,color:"GrayText" ,  fontWeight: "900"}}>unmetered bandwith </span></b></span></h1>
                     </div>
                     
-                    <div className="page2BodyKananTengah3">
+                    <div  data-aos="fade-up"
+     data-aos-duration="1000" className="page2BodyKananTengah3">
                     <h1><span className="bigHudred"><i>4</i></span><span className="text-red"> </span> <br/> <span style={{fontSize: "12px" , marginTop:"-2rem"}}><b><span style={{fontSize: "18px"   ,color:"GrayText",  fontWeight: "900"}}>transit providers </span></b></span></h1>
                     </div>
                    
-                    <div className="page2BodyKananTengah5">
+                    <div  data-aos="fade-up"
+     data-aos-duration="1200" className="page2BodyKananTengah5">
                     <h1><span className="bigHudred"><i>5</i></span>.<span className="bigHudred"><i>000</i></span><span className="text-red"> +</span> <br/> <span style={{fontSize: "12px" , marginTop:"-2rem"}}><b><span style={{fontSize: "18px" ,color:"GrayText" , fontWeight: "900"}}>global peers </span></b></span></h1>
                        
                     </div>

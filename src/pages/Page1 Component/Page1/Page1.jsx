@@ -30,7 +30,7 @@ export const Page1 = () => {
   return (
     <div className="MainContainer">
       {/* <Background /> */}
-    <NavbarV1 />
+    <NavbarV1  />
       <MDBContainer>
         <div className="BodyContainer">
           <div className="SecContainer">
@@ -51,7 +51,8 @@ export const Page1 = () => {
             </div>
           </div>
           <div className="TrdContainer">
-          <div className="TitelContainer">
+          <div  data-aos="fade-right"
+          data-aos-duration="800" className="TitelContainer">
               <h1>
               IMAGINE <span className="text-green "> CONNNECTIVITY </span>{" "}
                 <br /> THAT WORKS

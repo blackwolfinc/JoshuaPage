@@ -11,16 +11,15 @@ import {
   faServer,
   faMapMarkedAlt,
   faDatabase,
-faChartPie,
+  faChartPie,
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import Typewriter from "typewriter-effect";
 import { Background } from "../../../components/Background/Background";
 import { CommingSoon } from "../Countdoown/Countdown";
 
-
 export const Page12 = () => {
-    let history = useHistory();
+  let history = useHistory();
   return (
     <div className="page12Container">
       {/* <Typewriter
@@ -31,59 +30,105 @@ export const Page12 = () => {
         }}
       />{" "} */}
       <div className="container">
-    
-    
-      <CommingSoon/>
+        {/* <CommingSoon/> */}
+          <h1  data-aos="fade-up"
+          data-aos-duration="600">Connect With Us : </h1>
+        <button
+          data-aos="fade-up"
+          data-aos-duration="600"
+          onClick={() => history.push("/freeIPV4")}
+          className="cardPage12"
+        >
+          <div onClick={() => history.push("/freeIPV4")} className="cardAtas">
+            <h4>
+              {" "}
+              Get In <span className="text-green "> Touch </span>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </h4>
+          </div>
 
-        {/* <button  onClick={() => history.push("/freeIPV4")} className="cardPage12">
-    
-          <div  onClick={() => history.push("/freeIPV4")} className="cardAtas">
-        
+          <div className="cardBawah">
+            <a>
+            register your E-mail   for  <span className="text-green "> " More "</span> Information
+            </a>
+          </div>
+        </button>
+        {/* <button
+          data-aos="fade-up"
+          data-aos-duration="600"
+          onClick={() => history.push("/freeIPV4")}
+          className="cardPage12"
+        >
+          <div onClick={() => history.push("/freeIPV4")} className="cardAtas">
             <h4>
               {" "}
               LEASE<span className="text-green "> IPV4 </span>
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
- 
+
           <div className="cardBawah">
-            <p>HASSLE - <span className="text-green "> "FREE IPV4"</span>  LEASING</p>
+            <p>
+              HASSLE - <span className="text-green "> "FREE IPV4"</span> LEASING
+            </p>
           </div>
         </button>
 
-        <button className="cardPage12">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="900"
+          className="cardPage12"
+        >
           <div className="cardAtas">
             <h4>
               LEASE SERVERS
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
-    
+
           <div className="cardBawah">
-            <p><span className="text-green "> "POWERFUL"</span>  AND AFFORDABLE  BARE-METALS</p>
+            <p>
+              {" "}
+              AFFORDABLE <span className="text-green "> "POWERFUL"</span>{" "}
+              BARE-METALS
+            </p>
           </div>
         </button>
-        <button className="cardPage12">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          className="cardPage12"
+        >
           <div className="cardAtas">
             <h4>
               <span className="text-green "> CO</span>-LOCATION
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
- 
-          <div className="cardBawah">
-            <p>CONNECTING YOU TO<span className="text-green "> "GLOBAL"</span>   MARKETS</p>
+
+          <div className=" cardBawah">
+            <p>
+              CONNECTING YOU TO<span className="text-green "> "GLOBAL"</span>{" "}
+              MARKETS
+            </p>
           </div>
         </button>
-        <button className="cardPage12">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1500"
+          className="cardPage12"
+        >
           <div className="cardAtas">
             <h4>
               DATA ANALYTICS <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
-         
+
           <div className="cardBawah">
-            <p>INNOVATED<span className="text-green "> DATA</span> COLLECTION <span className="text-green "> SOLUTIONS</span></p>
+            <p>
+              INNOVATED<span className="text-green "> DATA</span> COLLECTION{" "}
+              <span className="text-green "> SOLUTIONS</span>
+            </p>
           </div>
         </button> */}
       </div>

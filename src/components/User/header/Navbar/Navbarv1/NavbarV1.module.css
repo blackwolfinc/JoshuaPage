@@ -22,6 +22,20 @@
   margin: 0rem 1rem;
   color: black;
   outline: none !important;
+
+}
+
+.Button:hover {
+  padding: 0.4rem 1em;
+  border-radius: 20px;
+  /* border: 2px solid rgb(35, 168, 35); */
+  border: none !important;
+/* box-shadow: 3px 3px 5px #a9c9a9, -2px -2px 5px #b7cab7; */
+  background-color: transparent !important;
+  margin: 0rem 1rem;
+  color: rgb(35, 168, 35);
+  outline: none !important;
+
 }
 .Button2 {
   padding: 0.5rem 1em;
@@ -31,6 +45,18 @@
   background-color: rgb(35, 168, 35);
   margin: 0rem 1rem;
   box-shadow: 5px 5px 10px #a9c9a9, -2px -2px 5px #b7cab7;
+  font-family: 'Maax-Bold', 'Maax';
+  font-weight: 700;
+  outline: none !important;
+}
+.Button2:hover {
+  padding: 0.5rem 1em;
+  border-radius: 20px;
+  border: none !important;
+  color: rgb(35, 168, 35);
+  background-color: #fff;
+  margin: 0rem 1rem;
+  box-shadow: 5px 5px 10px #a9c9a911, -2px -2px 5px #b7cab734;
   font-family: 'Maax-Bold', 'Maax';
   font-weight: 700;
   outline: none !important;

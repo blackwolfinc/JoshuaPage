@@ -27,8 +27,9 @@ export const Page3 = () => {
          
         </h2>
       </div>
-      <div className="Page3ContainerBody">
-        <a
+      <div data-aos="fade-up"
+     data-aos-duration="1000" className="Page3ContainerBody">
+        <a 
           href="https://www.google.com/maps/place/60+Hudson+Street,+60+Hudson+St,+New+York,+NY+10013,+Amerika+Serikat/@40.7178576,-74.0107059,17z/data=!4m5!3m4!1s0x89c25a1fb9aa9263:0xcab4f5951742199b!8m2!3d40.717729!4d-74.0083059"
           className="CardCostume Card1"
         >
@@ -58,9 +59,11 @@ export const Page3 = () => {
           </div></a>
       </div>
       <div className="Page3ContainerFooter">
-          <button>explore server options 
+          <button data-aos="fade-up"
+     data-aos-duration="1400">explore server options 
 </button>
-          <button>explore co-location options
+          <button data-aos="fade-up"
+     data-aos-duration="1800">explore co-location options
 </button>
       </div>
       </MDBContainer>
