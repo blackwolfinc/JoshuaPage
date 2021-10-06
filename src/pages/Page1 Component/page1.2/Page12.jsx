@@ -69,12 +69,6 @@ export const Page12 = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
-
-          <div className="cardBawah">
-            <p>
-              HASSLE - <span className="text-green "> "FREE IPV4"</span> LEASING
-            </p>
-          </div>
         </button>
 
         <button
@@ -92,14 +86,6 @@ export const Page12 = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
-
-          <div className="cardBawah">
-            <p>
-              {" "}
-              AFFORDABLE <span className="text-green "> "POWERFUL"</span>{" "}
-              BARE-METALS
-            </p>
-          </div>
         </button>
         <button
           data-aos="fade-up"
@@ -116,13 +102,6 @@ export const Page12 = () => {
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
-
-          <div className=" cardBawah">
-            <p>
-              CONNECTING YOU TO<span className="text-green "> "GLOBAL"</span>{" "}
-              MARKETS
-            </p>
-          </div>
         </button>
         <button
           data-aos="fade-up"
@@ -137,13 +116,6 @@ export const Page12 = () => {
             <h4>
               DATA ANALYTICS <FontAwesomeIcon icon={faArrowRight} />
             </h4>
-          </div>
-
-          <div className="cardBawah">
-            <p>
-              INNOVATED<span className="text-green "> DATA</span> COLLECTION{" "}
-              <span className="text-green "> SOLUTIONS</span>
-            </p>
           </div>
         </button>
       </div>
