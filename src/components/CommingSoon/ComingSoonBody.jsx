@@ -17,7 +17,7 @@ export const ComingSoonBody = () => {
           <Typewriter
           
             options={{
-              strings: [" This Feature Will Be Ready Soon ...."],
+              strings: [" We are launching our new network soon ..."],
               autoStart: true,
               loop: true,
               deleteSpeed: 300,
