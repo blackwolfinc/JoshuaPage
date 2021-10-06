@@ -31,7 +31,7 @@ export const Page12 = () => {
       />{" "} */}
       <div className="container">
         {/* <CommingSoon/> */}
-          <h1  data-aos="fade-up"
+        {/* <h1  data-aos="fade-up"
           data-aos-duration="600">Connect With Us : </h1>
         <button
           data-aos="fade-up"
@@ -52,14 +52,17 @@ export const Page12 = () => {
             register your E-mail   for  <span className="text-green "> " More "</span> Information
             </a>
           </div>
-        </button>
-        {/* <button
+        </button> */}
+        <button
           data-aos="fade-up"
           data-aos-duration="600"
-          onClick={() => history.push("/freeIPV4")}
+          onClick={() => history.push("/CommingSoon")}
           className="cardPage12"
         >
-          <div onClick={() => history.push("/freeIPV4")} className="cardAtas">
+          <div
+            onClick={() => history.push("/CommingSoon")}
+            className="cardAtas"
+          >
             <h4>
               {" "}
               LEASE<span className="text-green "> IPV4 </span>
@@ -78,8 +81,12 @@ export const Page12 = () => {
           data-aos="fade-up"
           data-aos-duration="900"
           className="cardPage12"
+          onClick={() => history.push("/CommingSoon")}
         >
-          <div className="cardAtas">
+          <div
+            onClick={() => history.push("/CommingSoon")}
+            className="cardAtas"
+          >
             <h4>
               LEASE SERVERS
               <FontAwesomeIcon icon={faArrowRight} />
@@ -98,8 +105,12 @@ export const Page12 = () => {
           data-aos="fade-up"
           data-aos-duration="1200"
           className="cardPage12"
+          onClick={() => history.push("/CommingSoon")}
         >
-          <div className="cardAtas">
+          <div
+            onClick={() => history.push("/CommingSoon")}
+            className="cardAtas"
+          >
             <h4>
               <span className="text-green "> CO</span>-LOCATION
               <FontAwesomeIcon icon={faArrowRight} />
@@ -117,8 +128,12 @@ export const Page12 = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
           className="cardPage12"
+          onClick={() => history.push("/CommingSoon")}
         >
-          <div className="cardAtas">
+          <div
+            onClick={() => history.push("/CommingSoon")}
+            className="cardAtas"
+          >
             <h4>
               DATA ANALYTICS <FontAwesomeIcon icon={faArrowRight} />
             </h4>
@@ -130,7 +145,7 @@ export const Page12 = () => {
               <span className="text-green "> SOLUTIONS</span>
             </p>
           </div>
-        </button> */}
+        </button>
       </div>
     </div>
   );

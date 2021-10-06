@@ -6,6 +6,7 @@ import "./assets/Animation.scss";
 import { AllPage } from "./pages/AllPage";
 import { HasslePage } from "./pages/HasslePage";
 import { AboutUs } from "./pages/Page3 Component/AboutUs";
+import { ComingSoonPage } from "./pages/ComingSoonPage.jsx";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <Switch>
         <Route path="/AboutUs">
             <AboutUs/>
+          </Route>
+          <Route path="/CommingSoon">
+            <ComingSoonPage/>
           </Route>
         <Route path="/freeIPV4">
             <HasslePage />
