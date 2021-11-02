@@ -1,6 +1,6 @@
 .container-AboutUs {
     margin-top: 4.5rem;
-
+    min-height: 100vh;
 
 }
 
@@ -12,19 +12,20 @@
 
 .AboutHeader {
     display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
     flex-direction: column;
 
     h1 {
         font-size: 48px;
         width: 30%;
-        border: 3px solid #3a3a3a;
-        padding: 1rem 2rem;
-        border-radius: 12px;
-        margin-bottom: 5rem;
-        box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+        border-bottom: 3px solid #3a3a3a31;
+        padding: 1rem 0rem;
+        margin-left: 2rem;
+        // border-radius: 12px;
+        margin-bottom: 3rem;
+        // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
     }
 
     h4 {
@@ -32,7 +33,20 @@
     }
 
 }
-
+.aboutUsBody{
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    h2{
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 24px;
+        line-height: 2.5rem;
+        font-weight: 300 !important;
+        font-family: system-ui;
+    }
+}
 .EndPageFoot {
     display: flex;
 

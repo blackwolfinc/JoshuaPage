@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarV1 from "../../components/User/header/Navbar/Navbarv1/NavbarV1";
 import { Page3 } from "../Page1 Component/Page3/Page3";
-import { Endpage } from "../Page1 Component/Page4/Endpage";
+import { Endpage2 } from "../Page1 Component/Page4/Endpage2";
 import "./AboutUs.scss";
 export const AboutUs = () => {
   return (
@@ -10,11 +10,23 @@ export const AboutUs = () => {
       <div className="container-AboutUs">
         <div className="container">
           <div className="AboutHeader">
-            <h1>
-            About Us 
-            </h1>
-            <h4>ULTRA TELECOM IS ABOUT <span className="text-green">YOU</span> , CONNECTING TO THE WORLD UT is a fresh
-              take on <span className="text-green">BIG</span>  bandwidth, combining years of industry experience to engineer solutions that 
+            <h1>About Us</h1>
+
+            <div className="aboutUsBody">
+              <h2>
+                CONNECTIVITY THAT <span className="text-green">WORKS</span> ,
+                SHOULD BE STANDARD
+              </h2>
+              <p>
+                Today's business connectivity options are both slow and
+                unreliable. But it doesn't have to be that way. We are a team of
+                telecom enthusiasts that is passionate about making connectivity
+                <span className="text-green"> WORK</span> for you. We are dedicated to providing<span className="text-green"> innovative</span>  and
+                <span className="text-green">  hassle-free solutions</span>   to ensure that you always stay connected.
+              </p>
+            </div>
+            {/* <h4>ULTRA TELECOM IS ABOUT <span className="text-green">YOU</span> , CONNECTING TO THE WORLD UT is a fresh
+              take oaboutUsBody bandwidth, combining years of industry experience to engineer solutions that 
               <span className="text-green"> WORK</span>  . “Imagining connectivity that works” challenges us to provide
               <span className="text-green"> innovative</span>  , hassle-free and efficiently designed solutions to
               complex problems. We partner with the industries best to deliver  relevant     <span className="text-green"> solutions</span>. </h4>
@@ -24,31 +36,31 @@ export const AboutUs = () => {
               <br />
               <h4> You. Fabiola, Neamul
               & Irdy from account management are eager to work with you in
-              meeting your organization's connectivity needs.</h4>
+              meeting your organization's connectivity needs.</h4> */}
           </div>
-         
+
           <div className="AboutBody">
-            <Page3 />
+         {/* <Endpage2/> */}
           </div>
 
           <div className="AboutBottom">
-            <h4>
-              {" "}
-              
-             
-            </h4>
-
-         
+            <h4> </h4>
           </div>
-          <h5> Contact Us for more :   <a href="mailto:support@ultratelecom.net"><span className="text-green"> support@ultratelecom.net </span> </a></h5>
+          <h5>
+            {" "}
+            Contact Us for more :{" "}
+            <a href="mailto:support@ultratelecom.net">
+              <span className="text-green"> support@ultratelecom.net </span>{" "}
+            </a>
+          </h5>
         </div>
       </div>
       <div className="EndPageFoot">
-            <p>
-              {" "}
-              All Rights Reserved 2021<span className="text-green"></span>
-            </p>
-          </div>
+        <p>
+          {" "}
+          All Rights Reserved 2021<span className="text-green"></span>
+        </p>
+      </div>
     </div>
   );
 };

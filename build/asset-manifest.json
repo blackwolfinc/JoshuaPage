@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df863338.chunk.css",
+    "main.js": "/static/js/main.c350ee7c.chunk.js",
+    "main.js.map": "/static/js/main.c350ee7c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aaa69f28.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aaa69f28.js.map",
+    "static/css/2.55ba0d5e.chunk.css": "/static/css/2.55ba0d5e.chunk.css",
+    "static/js/2.4e8e2a67.chunk.js": "/static/js/2.4e8e2a67.chunk.js",
+    "static/js/2.4e8e2a67.chunk.js.map": "/static/js/2.4e8e2a67.chunk.js.map",
+    "static/js/3.f0c48b22.chunk.js": "/static/js/3.f0c48b22.chunk.js",
+    "static/js/3.f0c48b22.chunk.js.map": "/static/js/3.f0c48b22.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.55ba0d5e.chunk.css.map": "/static/css/2.55ba0d5e.chunk.css.map",
+    "static/css/main.df863338.chunk.css.map": "/static/css/main.df863338.chunk.css.map",
+    "static/js/2.4e8e2a67.chunk.js.LICENSE.txt": "/static/js/2.4e8e2a67.chunk.js.LICENSE.txt",
+    "static/media/CallCenter.832f4bc4.png": "/static/media/CallCenter.832f4bc4.png",
+    "static/media/Illustration 980px width.3bc9463a.mp4": "/static/media/Illustration 980px width.3bc9463a.mp4",
+    "static/media/index.css": "/static/media/Maax.b63431a9.eot",
+    "static/media/Page3.scss": "/static/media/Maps4.ec8148a9.png",
+    "static/media/UT Website Animations_02_01 Original Size.384a80f7.mp4": "/static/media/UT Website Animations_02_01 Original Size.384a80f7.mp4",
+    "static/media/mdb.css": "/static/media/arrow_right.f7c6ac6d.svg",
+    "static/media/download.a1f47a2b.png": "/static/media/download.a1f47a2b.png",
+    "static/media/all.min.css": "/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/icon.753841d9.png": "/static/media/icon.753841d9.png",
+    "static/media/pat1.ef10b12a.png": "/static/media/pat1.ef10b12a.png",
+    "static/media/pat2.f1be963c.png": "/static/media/pat2.f1be963c.png",
+    "static/media/pat3.997aa5ab.png": "/static/media/pat3.997aa5ab.png",
+    "static/media/pat4.75246a32.png": "/static/media/pat4.75246a32.png",
+    "static/media/pat5.e6ebc7c1.png": "/static/media/pat5.e6ebc7c1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaa69f28.js",
+    "static/css/2.55ba0d5e.chunk.css",
+    "static/js/2.4e8e2a67.chunk.js",
+    "static/css/main.df863338.chunk.css",
+    "static/js/main.c350ee7c.chunk.js"
+  ]
+}
