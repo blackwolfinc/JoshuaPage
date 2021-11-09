@@ -75,10 +75,10 @@ export const Page12 = () => {
           data-aos="fade-up"
           data-aos-duration="900"
           className="cardPage12"
-          onClick={() => history.push("/CommingSoon")}
+          onClick={() => history.push("/GlobalVpls")}
         >
           <div
-            onClick={() => history.push("/CommingSoon")}
+            onClick={() => history.push("/GlobalVpls")}
             className="cardAtas"
           >
             <h4>
@@ -91,10 +91,10 @@ export const Page12 = () => {
           data-aos="fade-up"
           data-aos-duration="1200"
           className="cardPage12"
-          onClick={() => history.push("/CommingSoon")}
+          onClick={() => history.push("/IpTransit")}
         >
           <div
-            onClick={() => history.push("/CommingSoon")}
+            onClick={() => history.push("/IpTransit")}
             className="cardAtas"
           >
             <h4>

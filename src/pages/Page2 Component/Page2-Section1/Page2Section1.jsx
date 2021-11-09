@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBInput, MDBBtn } from "mdbreact";
 import "./Page2Section1.scss";
-import { Footer } from "../../../components/Footer/Footer";
+
 
 export const Page2Section1 = () => {
   return (

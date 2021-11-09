@@ -1,7 +1,5 @@
 import React from "react";
 import NavbarV1 from "../../components/User/header/Navbar/Navbarv1/NavbarV1";
-import { Page3 } from "../Page1 Component/Page3/Page3";
-import { Endpage2 } from "../Page1 Component/Page4/Endpage2";
 import "./AboutUs.scss";
 export const AboutUs = () => {
   return (

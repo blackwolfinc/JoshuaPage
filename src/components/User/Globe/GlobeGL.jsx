@@ -27,17 +27,17 @@ export const GlobeGL = () => {
   
     const N = 70;
     const arcsData = [...Array(N).keys()].map(() => ({
-      startLat: (Math.random() - 0.5) * 160,
-      startLng: (Math.random() - 0.5) * 360,
-      endLat: (Math.random() - 0.5) * 180,
-      endLng: (Math.random() - 0.5) * 360,
+      startLat: (Math.random() - 0.5) * 1060,
+      startLng: (Math.random() - 0.5) * 3060,
+      endLat: (Math.random() - 0.5) * 1800,
+      endLng: (Math.random() - 0.5) * 3600,
     
     }));
   
     const M = 420;
     const gData = [...Array(M).keys()].map(() => ({
-      lat: (Math.random() - 0.5) * 480,
-      lng: (Math.random() - 0.5) * 360,
+      lat: (Math.random() - 0.5) * 4800,
+      lng: (Math.random() - 0.5) * 3600,
       size: (Math.random() - 0.85) * 2,
 
     }));
@@ -46,8 +46,8 @@ export const GlobeGL = () => {
         <div id="globeViz">
         <Globe
         ref={globeEl}
-        height="950"
-        width="1150"
+        height="450"
+        width="400"
         backgroundColor="#66000000"
         showGlobe={true}
         showAtmosphere={true}
@@ -59,17 +59,17 @@ export const GlobeGL = () => {
       bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
       
       arcsData={arcsData}
-      arcColor={path =>"#31cd00"}
+      arcColor={path =>"#30cd009d"}
       arcDashLength={() => Math.random()}
       arcDashGap={() => Math.random()}
-      arcDashAnimateTime={() => Math.random() * 15000 + 500}
+      arcDashAnimateTime={() => Math.random() * 12000 + 500}
       arcCurveResolution={600}
       // backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
       pathsData={cablePaths}
       pathPoints="coords"
       pathPointLat={p => p[1]}
       pathPointLng={p => p[0]}
-      pathColor={path => "#31cd00"}
+      pathColor={path => "#30cd009d"}
       pathLabel={path => path.properties.slug}
       pathDashLength={0.01}
       pathDashGap={0.03}

@@ -7,6 +7,8 @@ import { AllPage } from "./pages/AllPage";
 import { HasslePage } from "./pages/HasslePage";
 import { AboutUs } from "./pages/Page3 Component/AboutUs";
 import { ComingSoonPage } from "./pages/ComingSoonPage.jsx";
+import { IpTransit } from "./pages/page4 Components/IpTransit";
+import { GlobalVpls } from "./pages/Page5 Component/GlobalVpls";
 
 function App() {
   return (
@@ -14,6 +16,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
+        
+        <Route path="/GlobalVpls">
+          <GlobalVpls/>
+          </Route>
+        <Route path="/IpTransit">
+            <IpTransit/>
+          </Route>
         <Route path="/AboutUs">
             <AboutUs/>
           </Route>
