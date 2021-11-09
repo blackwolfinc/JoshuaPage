@@ -70,6 +70,12 @@
           font-size: 24px;
           font-family: "Maax";
         }
+        p{
+          font-size: 20px;
+          line-height: 2.5rem;
+          font-weight: 300 !important;
+          font-family: system-ui;
+        }
       }
       .page2BodyKananTengah {
         width: auto;
@@ -139,6 +145,7 @@
           }
           width: 100%;
         }
+        
       }
       .page2BodyKananBawah {
         // width: 100%;
@@ -149,8 +156,10 @@
         display: flex;
         flex-direction: row;
         margin-left: 12rem;
-        margin-top: 6rem;
+        margin-top: 8rem;
         margin-bottom: 2rem;
+
+     
         .page2BodyKananBawahAtas {
           // border-radius: 10px;
           text-align: left;
@@ -202,7 +211,7 @@
       }
     }
   }
-
+ 
   .BackgroundMain3 {
     margin-top: -8.3rem;
     transform: rotate(180deg);
