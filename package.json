@@ -2,6 +2,11 @@
   "name": "josuaglobe",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.24.1",
+    "npm" : "6.14.12"
+    
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
