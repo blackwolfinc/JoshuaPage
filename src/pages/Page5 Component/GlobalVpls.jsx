@@ -31,7 +31,7 @@ export const GlobalVpls = () => {
                 <br />
               </div>
               <div
-                data-aos="fade-up"
+                data-aos="fade-right"
                 data-aos-duration="1000"
                 className="cardBody CardGlobe"
               >
@@ -41,7 +41,7 @@ export const GlobalVpls = () => {
             </div>
           </div>
           <div className="GlobalVplsBottom">
-            <h1>Additional information/metrics</h1>
+            {/* <h1>Additional information/metrics</h1> */}
             <div className="BottomGlobal">
               <div
                 data-aos="fade-up"
@@ -66,7 +66,7 @@ export const GlobalVpls = () => {
               </div>
               <div
                 data-aos="fade-up"
-                data-aos-duration="1200"
+                data-aos-duration="1400"
                 className="CardBotom"
               >
                 <h2>Port types</h2>
