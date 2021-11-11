@@ -24,8 +24,11 @@ export const Page2Costume = () => {
             <Vidio2 />
           </div>
           <div className="Page2BodyKanan">
-            <div data-aos="fade-left"
-     data-aos-duration="1000" className="page2BodyKananAtas">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              className="page2BodyKananAtas"
+            >
               <br />
               <p>
                 <Typewriter
@@ -55,11 +58,17 @@ export const Page2Costume = () => {
               <br />
             </div>
 
-            <div data-aos="fade-left"
-     data-aos-duration="1000" className="page2BodyKananBawah">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              className="page2BodyKananBawah2"
+            >
               <hr />
-              <div data-aos="fade-left"
-     data-aos-duration="1000" className="page2BodyKananBawahAtas">
+              <div
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                className="page2BodyKananBawahAtas"
+              >
                 <span className="text-our">our</span>
                 <h1>
                   {" "}

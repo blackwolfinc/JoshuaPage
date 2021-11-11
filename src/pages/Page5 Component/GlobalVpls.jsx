@@ -15,8 +15,11 @@ export const GlobalVpls = () => {
             <h1>Global Vpls</h1>
 
             <div className="GlobalVplsBody">
-              <div data-aos="fade-right"
-     data-aos-duration="1000" className="cardBody">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                className="cardBody"
+              >
                 <p>
                   Our global VPLS provides inherently redundant, any-to-any
                   connectivity, extending your network across multiple
@@ -27,39 +30,66 @@ export const GlobalVpls = () => {
                 </p>
                 <br />
               </div>
-              <div className="cardBody CardGlobe">
-               
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className="cardBody CardGlobe"
+              >
                 {/* <GlobeGL /> */}
-                <VidioPlane/>
+                <VidioPlane />
               </div>
             </div>
           </div>
           <div className="GlobalVplsBottom">
             <h1>Additional information/metrics</h1>
             <div className="BottomGlobal">
-              <div data-aos="fade-up"
-     data-aos-duration="1000" className="CardBotom">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className="CardBotom"
+              >
                 <h2>Robust SLAs</h2>
                 <ul>
-                  <li>Availability: 99.999% <MDBIcon fas icon="check" /></li>
-                  <li>Frame/packet loss ratio: ≤0.1% <MDBIcon fas icon="check" /></li>
-                  <li>Frame jitter: ≤2ms <MDBIcon fas icon="check" /></li>
-                  <li>Latency by region <MDBIcon fas icon="check" /></li>
+                  <li>
+                    Availability: 99.999% <MDBIcon fas icon="check" />
+                  </li>
+                  <li>
+                    Frame/packet loss ratio: ≤0.1% <MDBIcon fas icon="check" />
+                  </li>
+                  <li>
+                    Frame jitter: ≤2ms <MDBIcon fas icon="check" />
+                  </li>
+                  <li>
+                    Latency by region <MDBIcon fas icon="check" />
+                  </li>
                 </ul>
               </div>
-              <div data-aos="fade-up"
-     data-aos-duration="1000" className="CardBotom">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                className="CardBotom"
+              >
                 <h2>Port types</h2>
                 <ul>
-                  <li><span>Fast Ethernet (FastE)</span> <MDBIcon fas icon="check" /></li>
-                  <li>Gigabit Ethernet (GigE) <MDBIcon fas icon="check" /></li>
-                  <li>10 Gigabit Ethernet (10 GigE) <MDBIcon fas icon="check" /></li>
-                  <li>100 Gigabit Ethernet (100 GigE) <MDBIcon fas icon="check" /></li>
+                  <li>
+                    <span>Fast Ethernet (FastE)</span>{" "}
+                    <MDBIcon fas icon="check" />
+                  </li>
+                  <li>
+                    Gigabit Ethernet (GigE) <MDBIcon fas icon="check" />
+                  </li>
+                  <li>
+                    10 Gigabit Ethernet (10 GigE) <MDBIcon fas icon="check" />
+                  </li>
+                  <li>
+                    100 Gigabit Ethernet (100 GigE) <MDBIcon fas icon="check" />
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="GlobalVplsBody2">
+          <div              data-aos="fade-up"
+                data-aos-duration="1200" className="GlobalVplsBody2 ">
             <p>
               {" "}
               We provide flexible bandwidth options, including flat-rate billing
@@ -76,10 +106,8 @@ export const GlobalVpls = () => {
             </p>
           </div>
 
-        
           <h5>
-          Get in touch with our sales team to discuss pricing- 
-       
+            Get in touch with our sales team to discuss pricing-
             <a href="mailto:sales@ultratelecom.net">
               <span className="text-green"> sales@ultratelecom.net </span>{" "}
             </a>

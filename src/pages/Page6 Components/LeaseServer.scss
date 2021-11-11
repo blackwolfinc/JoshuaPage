@@ -1,0 +1,146 @@
+.container-LeaseServer {
+  margin-top: 4.5rem;
+  min-height: 100vh;
+}
+
+.LeaseServerBottom {
+  padding-bottom: 3rem;
+}
+
+.LeaseServerHeader {
+  display: flex;
+  text-align: center;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+
+  p {
+    margin-top: -4rem;
+    padding: 2rem;
+    text-align: left;
+    font-size: 24px;
+    line-height: 2.5rem;
+    font-weight: 300 !important;
+    font-family: "Maax";
+  }
+  .buttonGroup {
+    // background-color: red;
+    // background: url(../../assets/images/Server.jpg);
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      width: 45%;
+      background-color: #ffffff;
+      outline: none;
+      // border: 1px solid gray ;
+      justify-self: flex-end;
+      margin: 1rem;
+      border-radius: 12px;
+
+      padding: 2rem 1rem 1rem 1rem;
+      box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
+      border-bottom: 3px solid rgba(35, 168, 35, 0.233);
+      .svg-inline--fa.fa-w-14 {
+        display: none;
+      }
+
+      h4 {
+        color: #3a3a3aad;
+        font-family: "Maax-Bold", "Maax";
+        font-weight: 400;
+        padding: 1rem;
+      }
+    }
+
+    button:hover {
+      background-color: transparent;
+      border: 2.5px solid rgba(35, 168, 35, 0.753);
+      // border-right:1px solid rgba(35, 168, 35, 0.753);
+      border-bottom: none;
+      border-top: none;
+      // margin-bottom: 5rem;
+      // box-shadow: 20px 20px 60px #d9d9d98e, -20px -20px 60px #ffffff;
+      transform: scale(1.1);
+      // border: 2px solid rgba(35, 168, 35, 0.753);
+      transition: 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+      h4 {
+        color: rgba(35, 168, 35, 0.753) !important;
+      }
+    }
+  }
+  .imgHeader {
+    border-radius: 12px;
+    box-shadow: 20px 20px 60px #06050599, -20px -20px 60px #f9f9f9;
+    transform: scale(0.75) !important;
+    margin-bottom: 2rem;
+    filter: drop-shadow(2 px 4 px 6 px #d9d9d9 );
+  }
+.imgHeader:hover{
+    transform: scale(0.8 ) !important;
+    transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+  h1 {
+    font-size: 48px;
+    width: 30%;
+    border-bottom: 3px solid #3a3a3a31;
+    padding: 1rem 0rem;
+    margin-left: 2rem;
+    // border-radius: 12px;
+    margin-bottom: 3rem;
+    // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  }
+
+  h4 {
+    line-height: 3rem;
+  }
+}
+.LeaseServerBody {
+  // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  h2 {
+    margin-bottom: 2rem;
+    font-family: "Maax";
+  }
+  p {
+    font-size: 24px;
+    line-height: 2.5rem;
+    font-weight: 300 !important;
+    font-family: "Maax";
+  }
+}
+.EndPageFoot {
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  height: 3rem;
+  width: 100%;
+  padding-top: 1rem;
+  margin-top: 3rem;
+
+  p {
+    margin-top: 0rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    color: #3a3a3a;
+    opacity: 0.7;
+
+    span {
+      margin-left: 1rem;
+    }
+  }
+}

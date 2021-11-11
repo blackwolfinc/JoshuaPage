@@ -9,6 +9,7 @@ import { AboutUs } from "./pages/Page3 Component/AboutUs";
 import { ComingSoonPage } from "./pages/ComingSoonPage.jsx";
 import { IpTransit } from "./pages/page4 Components/IpTransit";
 import { GlobalVpls } from "./pages/Page5 Component/GlobalVpls";
+import { LeaseServer } from "./pages/Page6 Components/LeaseServer";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-        
+        <Route path="/LeaseServer">
+       <LeaseServer/>
+          </Route>
         <Route path="/GlobalVpls">
           <GlobalVpls/>
           </Route>
