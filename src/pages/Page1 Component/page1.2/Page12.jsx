@@ -75,10 +75,10 @@ export const Page12 = () => {
           data-aos="fade-up"
           data-aos-duration="900"
           className="cardPage12"
-          onClick={() => history.push("/GlobalVpls")}
+          onClick={() => history.push("/CommingSoon")}
         >
           <div
-            onClick={() => history.push("/GlobalVpls")}
+            onClick={() => history.push("/CommingSoon")}
             className="cardAtas"
           >
             <h4>
@@ -98,7 +98,7 @@ export const Page12 = () => {
             className="cardAtas"
           >
             <h4>
-              <span className="text-green "> CO</span>-LOCATION
+              <span className="text-green "> IP</span> TRANSIT
               <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
@@ -107,14 +107,14 @@ export const Page12 = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
           className="cardPage12"
-          onClick={() => history.push("/CommingSoon")}
+          onClick={() => history.push("/GlobalVpls")}
         >
           <div
-            onClick={() => history.push("/CommingSoon")}
+            onClick={() => history.push("/GlobalVpls")}
             className="cardAtas"
           >
             <h4>
-              DATA ANALYTICS <FontAwesomeIcon icon={faArrowRight} />
+            GLOBAL VPLS <FontAwesomeIcon icon={faArrowRight} />
             </h4>
           </div>
         </button>

@@ -2,6 +2,7 @@ import { MDBIcon } from "mdbreact";
 import React from "react";
 import { GlobeGL } from "../../components/User/Globe/GlobeGL";
 import NavbarV1 from "../../components/User/header/Navbar/Navbarv1/NavbarV1";
+import { VidioPlane } from "../../components/User/VidioPlane/VidioPlane";
 
 import "./GlobalVpls.scss";
 export const GlobalVpls = () => {
@@ -26,10 +27,10 @@ export const GlobalVpls = () => {
                 </p>
                 <br />
               </div>
-              <div data-aos="fade-up"
-     data-aos-duration="1000" className="cardBody CardGlobe">
-                {" "}
-                <GlobeGL />
+              <div className="cardBody CardGlobe">
+               
+                {/* <GlobeGL /> */}
+                <VidioPlane/>
               </div>
             </div>
           </div>
