@@ -12,7 +12,7 @@ export const GlobalVpls = () => {
       <div className="container-GlobalVpls">
         <div className="container">
           <div className="GlobalVplsHeader">
-            <h1>Global Vpls</h1>
+            <h1>Global VPLS</h1>
 
             <div className="GlobalVplsBody">
               <div

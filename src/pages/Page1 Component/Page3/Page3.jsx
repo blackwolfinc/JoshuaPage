@@ -49,13 +49,13 @@ export const Page3 = () => {
         <div className="Layer LayerCard3">
             <h1>Miami</h1>
             <br />
-            <h3>36 ne 2nd street, miami, florida</h3>
+            <h3> 50 Northeast 9th Street, Miami, FL, USA</h3>
           </div></a>
-        <a href="https://www.google.com/maps/place/Leapfield+House,+20+Lanrick+Rd,+Aberfeldy+Village,+London+E14+0JF,+Britania+Raya/@51.5153352,0.0003084,17z/data=!3m1!4b1!4m5!3m4!1s0x47d8a7ffd78af35b:0x3fbe0f766455b453!8m2!3d51.5153319!4d0.0024971" className="CardCostume Card4"> 
+        <a href="https://www.google.co.uk/maps/place/Science+Park+120,+1098+XG+Amsterdam,+Belanda/@52.3573453,4.9493591,16z/data=!4m5!3m4!1s0x47c609439d5a9f9d:0x3d87063a4907546b!8m2!3d52.3571608!4d4.9508821" className="CardCostume Card4"> 
         <div className="Layer LayerCard4">
             <h1>London</h1>
             <br />
-            <h3>20 lanrick rd, poplar, london united kingdom</h3>
+            <h3> Science Park 120, Amsterdam, Netherlands</h3>
           </div></a>
       </div>
       <div className="Page3ContainerFooter">
