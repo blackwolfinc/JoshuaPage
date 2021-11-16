@@ -143,7 +143,7 @@ export const Page3 = () => {
       }}
     />
   </div>
-
+{/* 
         <div className="Page3ContainerFooter">
           <button data-aos="fade-up" data-aos-duration="1400">
             explore server options
@@ -151,7 +151,7 @@ export const Page3 = () => {
           <button data-aos="fade-up" data-aos-duration="1800">
             explore co-location options
           </button>
-        </div>
+        </div> */}
       </MDBContainer>
     </div>
   );

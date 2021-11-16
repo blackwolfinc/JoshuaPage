@@ -11,7 +11,7 @@ import Typewriter from "typewriter-effect";
 
 export const Page2Costume = () => {
   return (
-    <div className="Page2Container">
+    <div className="Page2Container2">
       <MDBContainer>
         {/* <div
           data-aos="fade-up"
