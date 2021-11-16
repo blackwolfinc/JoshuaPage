@@ -93,7 +93,7 @@ export const GlobalVpls = () => {
             <p>
               {" "}
               We provide flexible bandwidth options, including flat-rate billing
-              and burstable ports to meet data spikes. We also offer an
+               burstable ports to meet data spikes. We also offer an
               aggregate committed data rate (ACDR) plan that allows for
               bandwidth sharing across ports, so you can avoid overpaying for
               idle capacity.

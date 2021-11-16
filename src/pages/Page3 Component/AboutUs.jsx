@@ -8,7 +8,7 @@ export const AboutUs = () => {
       <div className="container-AboutUs">
         <div className="container">
           <div className="AboutHeader">
-            <h1>About Us</h1>
+            <h1>About US</h1>
 
             <div className="aboutUsBody">
               <h2>
@@ -18,7 +18,7 @@ export const AboutUs = () => {
               <p>
                 Today's business connectivity options are both slow and
                 unreliable. But it doesn't have to be that way. We are a team of
-                telecom enthusiasts That are passionate about making connectivity
+                telecom enthusiasts that are passionate about making connectivity
                 <span className="text-green"> WORK</span> for you. We are dedicated to providing<span className="text-green"> innovative</span>  and
                 <span className="text-green">  hassle-free solutions</span>   to ensure that you always stay connected.
               </p>

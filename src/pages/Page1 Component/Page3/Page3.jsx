@@ -1,11 +1,13 @@
 import React from "react";
 import "./Page3.scss";
+import { useHistory } from "react-router-dom";
 
 import { MDBContainer } from "mdbreact";
 import Typewriter from "typewriter-effect";
 import Particles from "react-tsparticles";
 
 export const Page3 = () => {
+  let history = useHistory();
   const particlesInit = (main) => {
     console.log(main);
 
@@ -25,19 +27,24 @@ export const Page3 = () => {
             you need us
           </h1>
           <br />
-          <h2>
+          <div className="ConnectMajor">
+        <h3>   we connect your business to major markets, meshed together by  
             <Typewriter
               options={{
                 strings: [
-                  " we connect your business to major markets, meshed together by our global MPLS",
+                  "  connected by our global, redundant VPLS network" ,
                 ],
                 autoStart: true,
                 loop: true,
               }}
             />
-          </h2>
+           </h3>
+          </div>
         </div>
        
+
+       <button   data-aos="fade-up"
+        data-aos-duration="800" onClick={() => history.push("/GlobalVpls")} className="cardButton ">CONNECT TO OUR <span className="text-green">GLOBAL</span>  VPLS</button>
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
@@ -78,13 +85,14 @@ export const Page3 = () => {
             className="CardCostume Card4"
           >
             <div className="Layer LayerCard4">
-              <h1>London</h1>
+              <h1>Amsterdam</h1>
               <br />
               <h3> Science Park 120, Amsterdam, Netherlands</h3>
             </div>
           </a>
         </div>
-        <div id="particles" className="SpeedConection">
+        <div  data-aos="fade-up"
+        data-aos-duration="800" id="particles" className="SpeedConection">
         
         {/* <h3>  100 GE </h3> */}
     <Particles

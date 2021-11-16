@@ -10,6 +10,7 @@ import { ComingSoonPage } from "./pages/ComingSoonPage.jsx";
 import { IpTransit } from "./pages/page4 Components/IpTransit";
 import { GlobalVpls } from "./pages/Page5 Component/GlobalVpls";
 import { LeaseServer } from "./pages/Page6 Components/LeaseServer";
+import { Privacypolicy } from "./components/Privacy policy/Privacypolicy";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
+        <Route path="/Privacypolicy">
+       <Privacypolicy/>
+          </Route>
         <Route path="/LeaseServer">
        <LeaseServer/>
           </Route>

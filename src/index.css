@@ -107,8 +107,8 @@ html, body {
 
 .carousel {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   width: 20rem;
   height: 8rem;
   box-shadow: none !important;
@@ -121,6 +121,10 @@ html, body {
   transition-property: opacity;
   padding-top: 1rem;
 }
+.carousel-inner{
+  text-align: justify !important;
+}
+
 .carousel  img{
   width:auto;
   height: 4.5rem;
