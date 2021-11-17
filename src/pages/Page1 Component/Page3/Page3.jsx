@@ -44,7 +44,7 @@ export const Page3 = () => {
        
 
        <button   data-aos="fade-up"
-        data-aos-duration="800" onClick={() => history.push("/GlobalVpls")} className="cardButton ">CONNECT TO OUR <span className="text-green">GLOBAL</span>  VPLS</button>
+        data-aos-duration="800" onClick={() => history.push("/GlobalVpls")} className="cardButton ">CONNECT TO OUR GLOBAL  VPLS</button>
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
