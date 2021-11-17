@@ -20,7 +20,8 @@ export const Page3 = () => {
     <div className="Page3Container">
       <MDBContainer>
         <div className="Page3ContainerHeader">
-          <h1>
+          <h1 data-aos="fade-up"
+        data-aos-duration="800">
             {" "}
             when and
             <span className="text-green "> where </span>
