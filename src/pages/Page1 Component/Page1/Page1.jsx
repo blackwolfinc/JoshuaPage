@@ -27,6 +27,7 @@ import { MDBContainer } from "mdbreact";
 import { Vidio } from "../../../components/User/Vidio/Vidio";
 
 export const Page1 = () => {
+
   return (
     <div className="MainContainer">
       {/* <Background /> */}

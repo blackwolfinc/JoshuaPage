@@ -9,7 +9,7 @@ export const IpTransit = () => {
   return (
     <div>
       <NavbarV1 />
-      <div className="container-AboutUs">
+      <div className="container-AboutUs2">
         <div className="container">
           <div
             data-aos="fade-right"
