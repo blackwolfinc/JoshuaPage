@@ -19,33 +19,9 @@ export const Page3 = () => {
   return (
     <div className="Page3Container">
       <MDBContainer>
-        <div className="Page3ContainerHeader">
-          <h1 data-aos="fade-up"
-        data-aos-duration="800">
-            {" "}
-            when and
-            <span className="text-green "> where </span>
-            you need us
-          </h1>
-          <br />
-          <div className="ConnectMajor">
-        <h3>   we connect your business to major markets, meshed together by  
-            <Typewriter
-              options={{
-                strings: [
-                  "  connected by our global, redundant VPLS network" ,
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-           </h3>
-          </div>
-        </div>
+       
        
 
-       <button   data-aos="fade-up"
-        data-aos-duration="800" onClick={() => history.push("/GlobalVpls")} className="cardButton ">CONNECT TO OUR GLOBAL  VPLS</button>
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
@@ -91,6 +67,34 @@ export const Page3 = () => {
               <h3> Science Park 120, Amsterdam, Netherlands</h3>
             </div>
           </a>
+        </div>
+        <div className="Page3ContainerHeader">
+          <h1 data-aos="fade-up"
+        data-aos-duration="800">
+            {" "}
+            when and
+            <span className="text-green "> where </span>
+            you need us
+          </h1>
+          <br />
+          <div className="ConnectMajor">
+        <h3 data-aos="fade-up"
+        data-aos-duration="800">   we connect your business to major markets, meshed together by  
+            {/* <Typewriter
+              options={{
+                strings: [
+                  "  connected by our global, redundant VPLS network" ,
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            /> */}
+
+           </h3>
+           
+       <button   data-aos="fade-up"
+        data-aos-duration="800" onClick={() => history.push("/GlobalVpls")} className="cardButton ">CONNECT TO OUR GLOBAL  VPLS</button>
+          </div>
         </div>
         <div  data-aos="fade-up"
         data-aos-duration="800" id="particles" className="SpeedConection">

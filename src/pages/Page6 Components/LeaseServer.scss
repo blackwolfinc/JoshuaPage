@@ -5,106 +5,167 @@
 
 .LeaseServerBottom {
   padding-bottom: 3rem;
-}
 
+  .bodyLeaseServer {
+    display: flex;
+
+    .bodyLeaseServerRight {
+      display: flex;
+      flex-direction: column;
+      margin-top: -1rem;
+      padding: 3rem 1rem;
+      // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+      border-radius: 12px;
+      z-index: 9999;
+      margin-left: 2rem;
+
+      img {
+        max-width: 29rem;
+        margin-bottom: 3rem;
+        transform: scale(1);
+      }
+
+      img:hover {
+        transform: scale(1.2) !important;
+        transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+      }
+    }
+  }
+ 
+}
+.buttonGroup {
+  // background-color: red;
+  // background: url(../../assets/images/Server.jpg);
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: -webkit-fill-available;
+    background-color: #ffffff;
+    outline: none;
+    // border: 1px solid gray ;
+    justify-self: flex-end;
+    margin: 1rem;
+    border-radius: 12px;
+    max-height: 15rem;
+    padding: 2rem 1rem 1rem 1rem;
+    box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
+    border-bottom: 3px solid rgba(35, 168, 35, 0.233);
+    .svg-inline--fa.fa-w-14 {
+      display: none;
+    }
+
+    h4 {
+      color: #3a3a3aad;
+      font-family: "Maax-Bold", "Maax";
+      font-weight: 400;
+      padding: 1rem;
+    }
+  }
+
+  button:hover {
+    background-color: transparent;
+    border: 2.5px solid rgba(35, 168, 35, 0.753);
+    // border-right:1px solid rgba(35, 168, 35, 0.753);
+    border-bottom: none;
+    border-top: none;
+    // margin-bottom: 5rem;
+    // box-shadow: 20px 20px 60px #d9d9d98e, -20px -20px 60px #ffffff;
+    transform: scale(1.1);
+    // border: 2px solid rgba(35, 168, 35, 0.753);
+    transition: 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    h4 {
+      color: rgba(35, 168, 35, 0.753) !important;
+    }
+  }
+}
 .LeaseServerHeader {
   display: flex;
-  text-align: center;
+  text-align: left;
   align-items: left;
   justify-content: left;
   flex-direction: column;
+  margin-bottom: 0rem;
 
-  p {
-    margin-top: -4rem;
-    padding: 2rem;
-    text-align: left;
-    font-size: 20px;
-    line-height: 2.5rem;
-    font-weight: 300 !important;
-    font-family: "Maax";
-  }
-  .buttonGroup {
-    // background-color: red;
-    // background: url(../../assets/images/Server.jpg);
-    width: 100%;
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-    button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-top: none;
-      border-right: none;
-      border-left: none;
-      width: 45%;
-      background-color: #ffffff;
-      outline: none;
-      // border: 1px solid gray ;
-      justify-self: flex-end;
-      margin: 1rem;
-      border-radius: 12px;
-
-      padding: 2rem 1rem 1rem 1rem;
-      box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
-      border-bottom: 3px solid rgba(35, 168, 35, 0.233);
-      .svg-inline--fa.fa-w-14 {
-        display: none;
-      }
-
-      h4 {
-        color: #3a3a3aad;
-        font-family: "Maax-Bold", "Maax";
-        font-weight: 400;
-        padding: 1rem;
-      }
-    }
-
-    button:hover {
-      background-color: transparent;
-      border: 2.5px solid rgba(35, 168, 35, 0.753);
-      // border-right:1px solid rgba(35, 168, 35, 0.753);
-      border-bottom: none;
-      border-top: none;
-      // margin-bottom: 5rem;
-      // box-shadow: 20px 20px 60px #d9d9d98e, -20px -20px 60px #ffffff;
-      transform: scale(1.1);
-      // border: 2px solid rgba(35, 168, 35, 0.753);
-      transition: 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
-
-      h4 {
-        color: rgba(35, 168, 35, 0.753) !important;
-      }
-    }
-  }
-  .imgHeader {
-    border-radius: 12px;
-    box-shadow: 20px 20px 60px #06050599, -20px -20px 60px #f9f9f9;
-    transform: scale(0.75) !important;
-    margin-bottom: 2rem;
-    filter: drop-shadow(2 px 4 px 6 px #d9d9d9 );
-  }
-.imgHeader:hover{
-    transform: scale(0.8 ) !important;
-    transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
-}
   h1 {
-    font-size: 48px;
-    width: 30%;
     border-bottom: 3px solid #3a3a3a31;
-    padding: 1rem 0rem;
+    padding-bottom: 1rem;
+    width: 30%;
     margin-left: 2rem;
-    // border-radius: 12px;
-    margin-bottom: 3rem;
-    // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    font-size: 48px;
   }
+  .headerGroup {
+    display: flex;
+    text-align: center;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+    .cardHeaderGroup {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 4rem;
+    }
+    p {
+      margin-top: -4rem;
+      padding: 2rem;
+      text-align: left;
+      font-size: 20px;
+      line-height: 2.5rem;
+      font-weight: 300 !important;
+      font-family: "Maax";
+    }
 
-  h4 {
-    line-height: 3rem;
+
+    
+    .imgHeader {
+      border-radius: 12px;
+      // box-shadow: 5px 5px 30px #06050599, -5px -5px 30px #f9f9f9;
+      transform:  scale(1.1) !important;
+      opacity: 0.9 !important;
+      margin-bottom: 2rem;
+      margin-top: -6rem;
+      filter: drop-shadow(2 px 4 px 6 px #d9d9d9);
+      max-width: 25rem;
+      margin-left: 2rem;
+    }
+    .imgHeader:hover {
+      transform: scale(1.15) !important;
+      transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    h1 {
+      text-align: left;
+      font-size: 48px;
+      width: 30%;
+      border-bottom: 3px solid #3a3a3a31;
+      padding: 1rem 0rem;
+      margin-left: 2rem;
+
+      // border-radius: 12px;
+      margin-bottom: 3rem;
+      // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    }
+
+    h4 {
+      line-height: 3rem;
+    }
   }
 }
 .LeaseServerBody {
   // box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  width: 75%;
+  text-align: left;
   padding: 2rem;
   border-radius: 12px;
   h2 {

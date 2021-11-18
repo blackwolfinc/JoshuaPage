@@ -21,7 +21,7 @@ function App() {
         <Route path="/Privacypolicy">
        <Privacypolicy/>
           </Route>
-        <Route path="/LeaseServer">
+        <Route path="/leaseserver">
        <LeaseServer/>
           </Route>
         <Route path="/GlobalVpls">

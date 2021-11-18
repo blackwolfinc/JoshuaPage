@@ -3,7 +3,8 @@
   width: 100%;
   min-height: 50rem;
   max-height: 100vh;
-  justify-content: center;
+  margin-top: -5rem;
+  justify-content: right;
   flex-direction: column;
   //   background-color: rebeccapurple;
 
@@ -13,7 +14,7 @@
     border: none !important;
     color: #fff;
     background-color: rgb(35, 168, 35);
-    margin-top: 3rem;
+    margin-top: 1rem;
     padding: 1rem 4rem;
     box-shadow: 5px 5px 10px #255025, -2px -2px 5px #b7cab7;
     font-family: "Maax-Bold", "Maax";
@@ -45,28 +46,37 @@
       color: rgba(35, 168, 35, 0.753) !important;
     }
   }
- 
 
   .ConnectMajor {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     text-align: center;
+    margin-bottom: 4rem;
+    padding: 3rem 2rem;
     // margin-top: 6.5rem ;
     h3 {
+      text-align: left;
       width: -webkit-fill-available;
     }
   }
   .Page3ContainerHeader {
     // background-color: red;
+    display: flex;
     width: 100%;
     height: 40%;
-    margin-top: 2rem;
-    padding-top: 2rem;
-
+    // margin-top: 2rem;
+    padding-top: 0rem;
+    margin-bottom: 4rem;
     h1 {
-      font-size: 68.2px;
-      border-bottom: 2px solid #e7e7e78c;
-      padding: 1rem;
+      padding: 2rem;
+      font-size: 62.2px;
+      // border-bottom: 2px solid #e7e7e78c;
+      text-align: right;
+      // padding: 1rem;
+      border-right: 2px solid  #e7e7e78c !important;
+      padding-right: 2rem;
+      height: 15rem;
     }
 
     h2 {
@@ -104,9 +114,9 @@
     // background-color: green;
     width: 100%;
     height: 100%;
-    padding: 4rem;
+    padding: 4rem 4rem 2rem 4rem ;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
     .Card1,
     .Card2 {
       transform: skewY(-2deg);
@@ -145,18 +155,18 @@
       background-repeat: no-repeat;
       height: 18rem;
 
-      .Layer:after {
-        content: "";
-        display: block;
-        width: 140px;
-        height: 2px;
-        background: rgba(35, 168, 35, 0.753);
-        left: 0;
-        bottom: -27%;
-        z-index: -1;
-        position: absolute;
-        transform: rotate(90deg);
-      }
+      // .Layer:after {
+      //   content: "";
+      //   display: block;
+      //   width: 140px;
+      //   height: 2px;
+      //   background: rgba(35, 168, 35, 0.753);
+      //   left: 0;
+      //   bottom: -27%;
+      //   z-index: -1;
+      //   position: absolute;
+      //   transform: rotate(90deg);
+      // }
 
       .Layer:hover {
         opacity: 0;
@@ -199,18 +209,18 @@
       background-repeat: no-repeat;
       height: 18rem;
 
-      .Layer:after {
-        content: "";
-        display: block;
-        width: 120px;
-        height: 2px;
-        background: rgba(35, 168, 35, 0.753);
-        left: 0;
-        bottom: -24%;
-        z-index: -1;
-        position: absolute;
-        transform: rotate(90deg);
-      }
+      // .Layer:after {
+      //   content: "";
+      //   display: block;
+      //   width: 120px;
+      //   height: 2px;
+      //   background: rgba(35, 168, 35, 0.753);
+      //   left: 0;
+      //   bottom: -24%;
+      //   z-index: -1;
+      //   position: absolute;
+      //   transform: rotate(90deg);
+      // }
 
       .Layer:hover {
         opacity: 0;
@@ -254,18 +264,18 @@
       background-repeat: no-repeat;
       height: 18rem;
 
-      .Layer:after {
-        content: "";
-        display: block;
-        width: 120px;
-        height: 2px;
-        background: rgba(35, 168, 35, 0.753);
-        right: 0;
-        bottom: -24%;
-        z-index: -1;
-        position: absolute;
-        transform: rotate(90deg);
-      }
+      // .Layer:after {
+      //   content: "";
+      //   display: block;
+      //   width: 120px;
+      //   height: 2px;
+      //   background: rgba(35, 168, 35, 0.753);
+      //   right: 0;
+      //   bottom: -24%;
+      //   z-index: -1;
+      //   position: absolute;
+      //   transform: rotate(90deg);
+      // }
       .Layer:hover {
         opacity: 0;
       }
@@ -308,18 +318,18 @@
       background-repeat: no-repeat;
       height: 18rem;
 
-      .Layer:after {
-        content: "";
-        display: block;
-        width: 140px;
-        height: 2px;
-        background: rgba(35, 168, 35, 0.753);
-        right: 0;
-        bottom: -27%;
-        z-index: -1;
-        position: absolute;
-        transform: rotate(90deg);
-      }
+      // .Layer:after {
+      //   content: "";
+      //   display: block;
+      //   width: 140px;
+      //   height: 2px;
+      //   background: rgba(35, 168, 35, 0.753);
+      //   right: 0;
+      //   bottom: -27%;
+      //   z-index: -1;
+      //   position: absolute;
+      //   transform: rotate(90deg);
+      // }
       .Layer:hover {
         opacity: 0;
       }
