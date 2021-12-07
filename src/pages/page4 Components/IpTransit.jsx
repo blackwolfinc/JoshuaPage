@@ -5,10 +5,12 @@ import Typewriter from "typewriter-effect";
 
 import "./IpTransit.scss";
 import { MDBIcon } from "mdbreact";
+import { FloatingButtonSales } from "../../components/FloatingButtonSales/FloatingButtonSales";
 export const IpTransit = () => {
   return (
     <div>
       <NavbarV1 />
+      <FloatingButtonSales/>
       <div className="container-AboutUs2">
         <div className="container">
           <div

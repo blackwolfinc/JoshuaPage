@@ -3,10 +3,12 @@ import NavbarV1 from "../../components/User/header/Navbar/Navbarv1/NavbarV1";
 import img from "../../assets/images/Server.jpg";
 import img2 from "../../assets/images/DataCenter.jpg";
 import "./LeaseServer.scss";
+import { FloatingButtonSales } from "../../components/FloatingButtonSales/FloatingButtonSales";
 export const LeaseServer = () => {
   return (
     <div>
       <NavbarV1 />
+      <FloatingButtonSales/>
       <div className="container-LeaseServer">
         <div className="container">
           <div className="LeaseServerHeader">

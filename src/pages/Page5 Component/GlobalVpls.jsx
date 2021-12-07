@@ -1,5 +1,6 @@
 import { MDBIcon } from "mdbreact";
 import React from "react";
+import { FloatingButtonSales } from "../../components/FloatingButtonSales/FloatingButtonSales";
 import { GlobeGL } from "../../components/User/Globe/GlobeGL";
 import NavbarV1 from "../../components/User/header/Navbar/Navbarv1/NavbarV1";
 import { VidioPlane } from "../../components/User/VidioPlane/VidioPlane";
@@ -9,6 +10,7 @@ export const GlobalVpls = () => {
   return (
     <div>
       <NavbarV1 />
+      <FloatingButtonSales/>
       <div className="container-GlobalVpls">
         <div className="container">
           <div className="GlobalVplsHeader">
