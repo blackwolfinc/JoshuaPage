@@ -11,3 +11,19 @@
     transform: scale(1.1) !important;
     transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+.modal-open .modal{
+    overflow: hidden !important;
+}
+.modal-body {
+    padding: 0rem !important;
+}
+.modal-footer {
+    margin-top: -1rem;
+}
+.calendly-inline-widget iframe{
+ height: 103% !important;
+ margin-top: -3rem;
+  body{
+      background-color: gold !important;
+  }
+}

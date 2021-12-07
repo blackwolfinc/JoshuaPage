@@ -12,6 +12,9 @@ import {
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
 
+
+
+
 class NavbarV1 extends Component {
 
 state = {
@@ -36,13 +39,16 @@ render() {
       <MDBNavbar  data-aos="fade-down"
       data-aos-duration="800" className={Style.NavbarCon} white expand="md">
           <MDBContainer>
+
                   <MDBNavbarBrand> <Link  to={"./"}><img className={Style.gambarEquity} src={LogoEquity} alt=""/></Link>
 
         </MDBNavbarBrand>
         <MDBNavbarToggler  onClick={this.toggleCollapse}> <FontAwesomeIcon icon={faBars} /></MDBNavbarToggler>
 
         <MDBCollapse  id='navbarCollapse1' text-dark isOpen={this.state.isOpen} navbar>
+     
           <MDBNavbarNav right>
+       
             <MDBNavItem >
             <a href="https://support.ultratelecom.net/"><button className={Style.Button}><b>Support</b></button></a>
             </MDBNavItem>
